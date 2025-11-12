@@ -205,3 +205,20 @@ html[data-theme='light'] .VPHomeHero .name {
   opacity: 0;
   pointer-events: none;
 }
+
+.hidden-text {
+  position: absolute;  /* remove it from layout */
+  left: -9999px;       /* push it offscreen */
+  height: 1px;         /* minimal height so it still exists */
+  width: 1px;
+  overflow: hidden;
+  opacity: 0;          /* invisible */
+}
+
+.poster-info .poster-name {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
