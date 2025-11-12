@@ -21,7 +21,6 @@ hero:
 ---
 
 ### Chris Stoner {.hidden-text}
-
 <div class="poster-pages">
   <div id="chris-stoner" class="poster-card">
     <img src="/posters/chrisstoner.png" alt="Scenepack Image" />
@@ -36,7 +35,6 @@ hero:
 
 
 ### Cj Delco {.hidden-text}
-
 <div class="poster-pages">
   <div id="cj-delco" class="poster-card">
     <img src="/posters/cj delco.png" alt="Scenepack Image" />
@@ -48,9 +46,7 @@ hero:
   </div>
 </div>
 
-
 ### Gabriel Coimbra {.hidden-text}
-
 <div class="poster-pages">
   <div id="gabriel-coimbra" class="poster-card">
     <img src="/posters/GabrielCoimbra.png" alt="Scenepack Image" />
@@ -63,7 +59,6 @@ hero:
 </div>
 
 ### Alpha God Adonis {.hidden-text}
-
 <div class="poster-pages">
   <div id="alpha-god-adonis" class="poster-card">
     <img src="/posters/adonis.png" alt="Scenepack Image" />
@@ -76,7 +71,6 @@ hero:
 </div>
 
 ### ImJustinMac {.hidden-text}
-
 <div class="poster-pages">
   <div id="im-justin-mac" class="poster-card">
     <img src="/posters/ImJustinMac.png" alt="Scenepack Image" />
@@ -89,7 +83,6 @@ hero:
 </div>
 
 ### Ivan Cidrian {.hidden-text}
-
 <div class="poster-pages">
   <div id="ivan-cidrian" class="poster-card">
     <img src="/posters/ivancidrian.png" alt="Scenepack Image" />
@@ -102,7 +95,6 @@ hero:
 </div>
 
 ### Josh Loz {.hidden-text}
-
 <div class="poster-pages">
   <div id="josh-loz" class="poster-card">
     <img src="/posters/joshloz.png" alt="Scenepack Image" />
@@ -115,7 +107,6 @@ hero:
 </div>
 
 ### Mauro X Andress {.hidden-text}
-
 <div class="poster-pages">
   <div id="mauro-x-andress" class="poster-card">
     <img src="/posters/mauro.png" alt="Scenepack Image" />
@@ -127,9 +118,7 @@ hero:
   </div>
 </div>
 
-
 ### MaxedNate {.hidden-text}
-
 <div class="poster-pages">
   <div id="maxed-nate" class="poster-card">
     <img src="/posters/maxednate.png" alt="Scenepack Image" />
@@ -143,7 +132,6 @@ hero:
 
 
 ### Popeyoso {.hidden-text}
-
 <div class="poster-pages">
   <div id="popeyoso" class="poster-card">
     <img src="/posters/popeyoso.png" alt="Scenepack Image" />
