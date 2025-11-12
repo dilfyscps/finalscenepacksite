@@ -11,7 +11,7 @@ hero:
 
 <!-- Temporary notice -->
 <div style="background: #ffcc00; color: #000; text-align:center; padding:1em; font-weight:bold;">
-Site is currectly still being fixed. Thank you for your patience.
+Site is currectly still being fixed and there are many bugs. Thank you for your patience and sorry if you refresh and it looks weird.
 </div>
 
 ‎ 
