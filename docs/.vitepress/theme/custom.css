@@ -206,19 +206,19 @@ html[data-theme='light'] .VPHomeHero .name {
   pointer-events: none;
 }
 
-.hidden-text {
-  position: absolute;  /* remove it from layout */
-  left: -9999px;       /* push it offscreen */
-  height: 1px;         /* minimal height so it still exists */
-  width: 1px;
-  overflow: hidden;
-  opacity: 0;          /* invisible */
-}
-
 .poster-info .poster-name {
   font-weight: bolder;
   font-size: 1.5rem;
   color: #fff;
   margin-bottom: 0.5rem;
   text-align: left;
+}
+
+.hidden-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }

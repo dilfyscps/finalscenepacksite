@@ -1,10 +1,10 @@
 import DefaultTheme from 'vitepress/theme'
-import PosterCard from './components/PosterCard.vue'
-import './custom.css'
+import './custom.css' // your custom CSS
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app }) {
-    app.component('PosterCard', PosterCard)
+  enhanceApp({ app, router, siteData }) {
+    // You can put page-specific logic here if needed
+    // For now, this just keeps the custom CSS and default theme intact
   }
 }
