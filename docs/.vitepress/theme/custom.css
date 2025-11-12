@@ -1,0 +1,207 @@
+/* .vitepress/theme/custom.css */
+
+/* ===== Base Dark Mode ===== */
+:root {
+  color-scheme: dark;
+
+  --vp-c-bg: #1b1b1b;
+  --vp-c-bg-alt: #050505;
+  --vp-c-bg-elv: #222;
+
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: #eaeaea;
+  --vp-c-text-3: #00a0fc;
+
+  --vp-c-brand-1: #23b4e4;
+  --vp-c-brand-2: #95e4ff;
+  --vp-c-brand-3: #25addb;
+
+  --vp-c-border: #2f2f2f;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ffffff, #7df0ff);
+
+  --vp-code-block-bg: #242424;
+  --vp-code-block-color: #ffffff;
+}
+
+/* ===== Light Mode ===== */
+html[data-theme='light'] {
+  color-scheme: light;
+
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-alt: #f9f9f9;
+  --vp-c-bg-elv: #ffffff;
+
+  --vp-c-text-1: #111111;
+  --vp-c-text-2: #333333;
+  --vp-c-text-3: #23b4e4;
+
+  --vp-c-brand-1: #0077cc;
+  --vp-c-brand-2: #33c2ff;
+  --vp-c-brand-3: #00aaff;
+
+  --vp-c-border: #e0e0e0;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0077cc, #33c2ff, #0077cc);
+
+  --vp-code-block-bg: #f5f5f5;
+  --vp-code-block-color: #000000;
+}
+
+/* ===== Transparent Nav Bar ===== */
+.VPNav {
+  background-color: transparent !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: none;
+  box-shadow: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+/* Nav text readable */
+.VPNav .VPNavBar .title,
+.VPNav .VPNavBarMenu a,
+.VPNav .VPNavBarTitle,
+.VPNav .VPNavBarMenuLink {
+  color: var(--vp-c-text-1) !important;
+  text-shadow: 0 0 8px rgba(0, 160, 252, 0.4);
+  transition: color 0.3s ease;
+}
+
+/* ===== Hero Section ===== */
+.VPHomeHero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  gap: 1rem;
+  overflow: visible !important;
+}
+
+.VPHomeHero .name,
+.VPHomeHero .text,
+.VPHomeHero .tagline {
+  margin: 0 auto;
+}
+
+.VPHomeHero .name {
+  font-weight: 800;
+  color: transparent !important;
+  background: linear-gradient(120deg, #ffffff, #7df0ff, #ffffff);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+html[data-theme='light'] .VPHomeHero .name {
+  background: linear-gradient(120deg, #0077cc, #33c2ff, #0077cc);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+.VPHomeHero .actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.VPHomeHero .actions .VPButton {
+  background-color: var(--vp-c-brand-1) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 0 20px rgba(35, 180, 228, 0.4);
+  transition: all 0.3s ease;
+}
+
+.VPHomeHero .actions .VPButton:hover {
+  background-color: var(--vp-c-brand-2) !important;
+  box-shadow: 0 0 25px rgba(149, 228, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+/* ===== Hero Name Shine Keyframes ===== */
+@keyframes shine {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+.poster-pages h2 {
+  font-family: "Field Gothic Compact", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.poster-pages .poster-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+  background-color: #222;
+  border-radius: 12px;
+  max-width: 700px;
+}
+
+.poster-pages .poster-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.poster-pages .poster-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.poster-pages .poster-info p {
+  margin: 0 0 0.5rem 0;
+  color: #fff;
+}
+
+.poster-pages .poster-info a.poster-btn {
+  display: inline-block;         /* proper block behavior */
+  padding: 0.3rem 0.2rem;          /* button size */
+  background-color: #23b4e4;     /* button color */
+  color: #fff;                    /* text color */
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 0.5rem;            /* button spacing from text above */
+  text-align: center;             /* centers text inside the button */
+  transition: all 0.2s ease;
+}
+
+.poster-pages .poster-info a.poster-btn:hover {
+  background-color: #95e4ff;
+  color: #000;
+  transform: translateY(-1px);
+}
+
+
+.poster-pages .hidden-text {
+  display: block;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
