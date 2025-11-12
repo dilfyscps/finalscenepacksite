@@ -1,20 +1,16 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
+import LastUpdated from './components/LastUpdated.vue'
 
-// Only import these dynamically on the client side
 export default {
   ...DefaultTheme,
+  lastUpdated: true,
   enhanceApp({ app }) {
-    if (typeof window !== 'undefined') {
-      // Dynamically import to avoid breaking SSR
-      import('@vercel/analytics').then(({ inject }) => {
-        inject()
-      }).catch(() => {})
+    app.component('LastUpdated', LastUpdated)
 
-      // Optional: Speed Insights (Vue)
-      import('@vercel/speed-insights').then(({ injectSpeedInsights }) => {
-        injectSpeedInsights()
-      }).catch(() => {})
+    if (typeof window !== 'undefined') {
+      import('@vercel/analytics').then(({ inject }) => inject()).catch(() => {})
+      import('@vercel/speed-insights').then(({ injectSpeedInsights }) => injectSpeedInsights()).catch(() => {})
     }
   }
 }

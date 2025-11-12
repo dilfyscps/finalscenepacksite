@@ -17,7 +17,7 @@
   --vp-c-border: #2f2f2f;
 
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #ffffff, #7df0ff);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ffffff, #7df0ff);
 
   --vp-code-block-bg: #242424;
   --vp-code-block-color: #ffffff;
@@ -42,7 +42,7 @@ html[data-theme='light'] {
   --vp-c-border: #e0e0e0;
 
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(120deg, #0077cc, #33c2ff, #0077cc);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0077cc, #33c2ff, #0077cc);
 
   --vp-code-block-bg: #f5f5f5;
   --vp-code-block-color: #000000;
@@ -62,7 +62,6 @@ html[data-theme='light'] {
   z-index: 10;
 }
 
-/* Nav text readable */
 .VPNav .VPNavBar .title,
 .VPNav .VPNavBarMenu a,
 .VPNav .VPNavBarTitle,
@@ -109,7 +108,95 @@ html[data-theme='light'] .VPHomeHero .name {
   100% { background-position: -200% center; }
 }
 
-/* ===== HIDDEN HEADINGS FOR SEARCH ===== */
+/* ===== Center Hero Action Buttons ===== */
+.VPHomeHero .actions {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 1rem;               /* Space between buttons */
+  margin-top: 1rem;        /* Optional spacing below hero text */
+}
+
+.VPHomeHero .actions .VPButton {
+  min-width: 150px;        /* Optional: consistent button size */
+}
+
+/* ===== Poster Grid Base ===== */
+.poster-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.poster-grid .poster-card {
+  flex: 0 0 22%; /* 4 per row on large screens */
+  max-width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  background-color: var(--vp-c-bg-elv);
+  border-radius: 12px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+/* Poster Image */
+.poster-grid .poster-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+/* Poster Info */
+.poster-grid .poster-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+  align-items: center; /* Center the button and text */
+}
+
+.poster-grid .poster-name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.poster-grid .poster-info p {
+  margin: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.poster-grid .poster-info a.poster-btn {
+  display: inline-block;
+  min-width: 150px;
+  padding: 0.4rem 1rem;
+  background-color: #23b4e4;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.poster-grid .poster-info a.poster-btn:hover {
+  filter: brightness(1.2);
+  transform: translateY(-1px);
+}
+
+/* Hidden Text for Search Index */
 .hidden-text {
   position: absolute;
   width: 1px;
@@ -119,90 +206,35 @@ html[data-theme='light'] .VPHomeHero .name {
   white-space: nowrap;
 }
 
-/* ===== POSTER GRID ===== */
-.poster-pages {
-  display: inline-block; /* side-by-side layout */
-  vertical-align: top;
-  margin: 0.5rem; /* spacing between cards */
-  width: calc(33.33% - 1rem); /* 3 cards per row */
+/* ===== GLOW EFFECT ON SEARCH JUMP ===== */
+@keyframes glowFlash {
+  0% { box-shadow: 0 0 0px #23b4e4; background-color: var(--vp-c-bg-elv); }
+  50% { box-shadow: 0 0 25px #23b4e4; background-color: #2a2a2a; }
+  100% { box-shadow: 0 0 0px #23b4e4; background-color: var(--vp-c-bg-elv); }
 }
 
-@media (max-width: 1024px) {
-  .poster-pages {
-    width: calc(50% - 1rem); /* 2 cards per row */
+.poster-grid .poster-card:target {
+  animation: glowFlash 2s ease-out;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1200px) {
+  .poster-grid .poster-card {
+    flex: 0 0 30%; /* 3 per row */
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 900px) {
+  .poster-grid .poster-card {
+    flex: 0 0 45%; /* 2 per row */
+    max-width: 45%;
   }
 }
 
 @media (max-width: 480px) {
-  .poster-pages {
-    width: 100%; /* stack cards on mobile */
-    margin: 0.5rem 0;
+  .poster-grid .poster-card {
+    flex: 0 0 100%; /* 1 per row */
+    max-width: 100%;
   }
-}
-
-/* ===== POSTER CARD INTERNAL GRID ===== */
-.poster-card {
-  display: grid;
-  grid-template-rows: auto 1fr auto; /* image, text, button */
-  gap: 0.5rem;
-  background-color: #222;
-  border-radius: 12px;
-  padding: 1rem;
-  text-align: center;
-  width: 100%;
-}
-
-.poster-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-/* Poster Info */
-.poster-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.poster-info .poster-name {
-  font-weight: 700;
-  font-size: 1.2rem;
-  color: #fff;
-  margin: 0;
-}
-
-.poster-info p {
-  margin: 0;
-  color: #fff;
-  font-size: 1rem;
-}
-
-.poster-info a.poster-btn {
-  display: inline-block;
-  padding: 0.4rem 1rem;
-  background-color: #23b4e4;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: all 0.2s ease;
-}
-
-.poster-info a.poster-btn:hover {
-  filter: brightness(1.2);
-  transform: translateY(-1px);
-}
-
-/* ===== GLOW EFFECT ON SEARCH JUMP ===== */
-@keyframes glowFlash {
-  0% { box-shadow: 0 0 0px #23b4e4; background-color: #222; }
-  50% { box-shadow: 0 0 25px #23b4e4; background-color: #2a2a2a; }
-  100% { box-shadow: 0 0 0px #23b4e4; background-color: #222; }
-}
-
-.poster-card:target {
-  animation: glowFlash 2s ease-out;
 }

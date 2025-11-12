@@ -6,25 +6,25 @@ hero:
   text: 
   tagline: Official Scenepack Directory
   image:
-
 ---
 
 <!-- Temporary notice -->
 <div style="background: #ffcc00; color: #000; text-align:center; padding:1em; font-weight:bold;">
-Site is currectly still being fixed and there are many bugs. Thank you for your patience and sorry if you refresh and it looks weird.
+Site is currently still being fixed and there are many bugs. Thank you for your patience and sorry if you refresh and it looks weird.
 </div>
 
-‎ 
-‎ 
-‎ 
+<!-- Last Updated Section -->
+<LastUpdated />
 
-<div class="home-pages">
+<div class="poster-grid index-grid">
+
   <div id="oldsite" class="poster-card">
     <img src="/posters/logo.png" alt="Scenepack Image" />
     <div class="poster-info">
-      <p class="poster-name">OLD SCENEPACK PAGE</p> <!-- Visible name above description -->
+      <p class="poster-name">OLD SCENEPACK PAGE</p>
       <p></p>
       <a class="poster-btn" href="/oldscenepacks" target="_blank">Click Here</a>
     </div>
   </div>
+
 </div>
