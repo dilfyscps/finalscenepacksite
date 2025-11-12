@@ -26,7 +26,7 @@ hero:
 ### Boots {.hidden-text}
 <div class="poster-pages">
   <div id="boots" class="poster-card">
-    <img src="/tvshowposters/boots" alt="Scenepack Image" />
+    <img src="/tvshowposters/boots.png" alt="Scenepack Image" />
     <div class="poster-info">
       <p class="poster-name">Boots</p> <!-- Visible name above description -->
       <p></p>
