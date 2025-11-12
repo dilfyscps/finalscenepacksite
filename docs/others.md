@@ -1,11 +1,9 @@
 ---
 layout: home
-
 hero:
   name: "OTHER SCENEPACKS"
   text: ""
   tagline:
-
   actions:
     - theme: alt
       text: back to cvmscps
@@ -16,7 +14,6 @@ hero:
     - theme: alt
       text: scenepack req
       link: https://www.instagram.com/p/DPZ6s7cAaHl/
-
 ---
 
 <div class="poster-grid">
