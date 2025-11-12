@@ -215,59 +215,42 @@ html[data-theme='light'] .VPHomeHero .name {
   animation: glowFlash 2s ease-out;
 }
 
-/* ===== RESPONSIVE DESIGN WITH MULTI-CARD LAYOUT ===== */
+/* ===== RESPONSIVE DESIGN WITH GRID FOR MOBILE ===== */
 
-/* Container for wrapping poster cards */
+/* Container for poster cards */
 .poster-pages,
 .home-pages {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1rem;
+  justify-items: center;
+  padding: 1rem 0;
 }
 
-/* Poster card sizing for grid layout */
+/* Keep the poster-card internal layout the same */
 .poster-pages .poster-card,
 .home-pages .poster-card {
-  flex: 1 1 calc(33.33% - 1rem); /* 3 per row by default */
-  max-width: 300px; /* prevent over-stretching */
-  box-sizing: border-box;
+  max-width: 300px;
+  width: 100%;
 }
 
-/* Medium screens - 2 per row */
-@media (max-width: 768px) {
-  .poster-pages .poster-card,
-  .home-pages .poster-card {
-    flex: 1 1 calc(50% - 1rem);
-  }
-
-  .poster-pages .poster-card img,
-  .home-pages .poster-card img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-  }
-}
-
-/* Small screens - 1 per row */
+/* Mobile tweaks for very small screens */
 @media (max-width: 480px) {
   .poster-pages .poster-card,
   .home-pages .poster-card {
-    flex: 1 1 100%;
-    padding: 0.75rem;
-    border-radius: 10px;
+    max-width: 100%;
   }
 
   .poster-info .poster-name {
-    font-size: 1.2rem;
     text-align: center;
+    font-size: 1.2rem;
   }
 
   .poster-pages .poster-info a.poster-btn,
   .home-pages .poster-info a.poster-btn {
-    font-size: 0.9rem;
-    padding: 0.35rem 0.8rem;
     width: 100%;
     max-width: 250px;
+    font-size: 0.9rem;
+    padding: 0.35rem 0.8rem;
   }
 }
