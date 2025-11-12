@@ -216,13 +216,6 @@ html[data-theme='light'] .VPHomeHero .name {
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
-@media (max-width: 1024px) {
-  .poster-pages .poster-card,
-  .home-pages .poster-card {
-    max-width: 90%;
-  }
-}
-
 @media (max-width: 768px) {
   .poster-pages .poster-card,
   .home-pages .poster-card {
@@ -235,8 +228,8 @@ html[data-theme='light'] .VPHomeHero .name {
   .poster-pages .poster-card img,
   .home-pages .poster-card img {
     width: 100%;
-    max-width: 300px;
-    height: auto;
+    max-width: 300px;  /* ensures image doesn't stretch too much */
+    height: auto;      /* preserves aspect ratio */
   }
 
   .poster-pages .poster-info,
