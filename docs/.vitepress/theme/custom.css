@@ -83,14 +83,6 @@ html[data-theme='light'] {
   overflow: visible !important;
 }
 
-/* Center hero action buttons */
-.VPHomeHero .actions {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
 .VPHomeHero .name {
   font-weight: 800;
   color: transparent !important;
@@ -116,12 +108,20 @@ html[data-theme='light'] .VPHomeHero .name {
   100% { background-position: -200% center; }
 }
 
-/* ===== Poster Grid ===== */
+/* ===== Hero Buttons Centered ===== */
+.VPHomeHero .actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* ===== Poster Grid Base ===== */
 .poster-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1rem;
+  justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
@@ -142,23 +142,22 @@ html[data-theme='light'] .VPHomeHero .name {
   transition: all 0.2s ease;
 }
 
-/* Poster Image */
 .poster-grid .poster-card img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 12px;
-  flex-shrink: 0;
+  display: block;
+  margin: 0 auto;
 }
 
-/* Poster Info */
 .poster-grid .poster-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.4rem;
   margin-top: 0.5rem;
-  align-items: center; /* Center text and buttons */
+  align-items: center;
 }
 
 .poster-grid .poster-name {
@@ -191,7 +190,7 @@ html[data-theme='light'] .VPHomeHero .name {
   transform: translateY(-1px);
 }
 
-/* Hidden Text */
+/* Hidden Text for Search Index */
 .hidden-text {
   position: absolute;
   width: 1px;
@@ -201,7 +200,7 @@ html[data-theme='light'] .VPHomeHero .name {
   white-space: nowrap;
 }
 
-/* Glow on target */
+/* ===== GLOW EFFECT ON SEARCH JUMP ===== */
 @keyframes glowFlash {
   0% { box-shadow: 0 0 0px #23b4e4; background-color: var(--vp-c-bg-elv); }
   50% { box-shadow: 0 0 25px #23b4e4; background-color: #2a2a2a; }
@@ -212,7 +211,7 @@ html[data-theme='light'] .VPHomeHero .name {
   animation: glowFlash 2s ease-out;
 }
 
-/* ===== Responsive ===== */
+/* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 1200px) {
   .poster-grid .poster-card {
     flex: 0 0 30%; /* 3 per row tablet */
@@ -229,7 +228,7 @@ html[data-theme='light'] .VPHomeHero .name {
 
 @media (max-width: 480px) {
   .poster-grid .poster-card {
-    flex: 0 0 100%; /* 1 per row mobile */
-    max-width: 100%;
+    flex: 0 0 45%; /* 2 per row mobile */
+    max-width: 45%;
   }
 }
