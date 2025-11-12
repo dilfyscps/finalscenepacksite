@@ -1,20 +1,20 @@
 import DefaultTheme from 'vitepress/theme'
-import { inject } from '@vercel/analytics'
-import { SpeedInsights } from '@vercel/speed-insights/vue'
-import './custom.css' // your custom CSS
+import './custom.css'
 
+// Only import these dynamically on the client side
 export default {
   ...DefaultTheme,
-  enhanceApp({ app, router, siteData }) {
-    // Inject Vercel Analytics (client-side only)
+  enhanceApp({ app }) {
     if (typeof window !== 'undefined') {
-      inject()
+      // Dynamically import to avoid breaking SSR
+      import('@vercel/analytics').then(({ inject }) => {
+        inject()
+      }).catch(() => {})
+
+      // Optional: Speed Insights (Vue)
+      import('@vercel/speed-insights').then(({ injectSpeedInsights }) => {
+        injectSpeedInsights()
+      }).catch(() => {})
     }
-
-    // Register Vercel Speed Insights as a Vue component
-    app.component('SpeedInsights', SpeedInsights)
-
-    // You can put page-specific logic here if needed
-    // For now, this just keeps the custom CSS and default theme intact
   }
 }

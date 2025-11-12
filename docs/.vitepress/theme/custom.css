@@ -1,5 +1,3 @@
-/* .vitepress/theme/custom.css */
-
 /* ===== Base Dark Mode ===== */
 :root {
   color-scheme: dark;
@@ -86,12 +84,6 @@ html[data-theme='light'] {
   overflow: visible !important;
 }
 
-.VPHomeHero .name,
-.VPHomeHero .text,
-.VPHomeHero .tagline {
-  margin: 0 auto;
-}
-
 .VPHomeHero .name {
   font-weight: 800;
   color: transparent !important;
@@ -112,117 +104,13 @@ html[data-theme='light'] .VPHomeHero .name {
   animation: shine 4s linear infinite;
 }
 
-.VPHomeHero .actions {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.VPHomeHero .actions .VPButton {
-  background-color: var(--vp-c-brand-1) !important;
-  color: #fff !important;
-  border: none !important;
-  box-shadow: 0 0 20px rgba(35, 180, 228, 0.4);
-  transition: all 0.3s ease;
-}
-
-.VPHomeHero .actions .VPButton:hover {
-  background-color: var(--vp-c-brand-2) !important;
-  box-shadow: 0 0 25px rgba(149, 228, 255, 0.6);
-  transform: translateY(-2px);
-}
-
-/* ===== Hero Name Shine Keyframes ===== */
 @keyframes shine {
   0% { background-position: 200% center; }
   100% { background-position: -200% center; }
 }
 
-.poster-pages h2 {
-  font-family: "Field Gothic Compact", sans-serif;
-  font-weight: 700;
-  text-align: center;
-  color: #fff;
-  margin-bottom: 1rem;
-}
-
-.poster-pages .poster-card {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin: 0 auto 2rem auto;
-  padding: 1rem;
-  background-color: #222;
-  border-radius: 12px;
-  max-width: 700px;
-}
-
-.poster-pages .poster-card img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-.poster-pages .poster-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.poster-pages .poster-info p {
-  margin: 0 0 0.5rem 0;
-  color: #fff;
-}
-
-.poster-pages .poster-info a.poster-btn {
-  display: inline-block;
-  width: 200px;                 /* 👈 fixed width */
-  padding: 0.3rem 0;            /* keep height consistent */
-  background-color: #23b4e4;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 6px;
-  text-decoration: none;
-  margin-top: 0.5rem;
-  text-align: center;
-  transition: all 0.2s ease;
-}
-
-
-.poster-pages .hidden-text {
-  display: block;
-  height: 0;
-  width: 0;
-  overflow: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.poster-info .poster-name {
-  font-weight: bolder;
-  font-size: 1.5rem;
-  color: #fff;
-  margin-bottom: 0.5rem;
-  text-align: left;
-}
-
-/* custom.css */
-.hidden-text {
-  position: absolute;  /* keep it in the DOM */
-  width: 1px;          /* minimal space */
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0); /* visually hide */
-  white-space: nowrap;  /* prevent wrapping */
-}
-
-
-
-
-
+/* ===== POSTER CARD BASE ===== */
+.poster-pages h2,
 .home-pages h2 {
   font-family: "Field Gothic Compact", sans-serif;
   font-weight: 700;
@@ -231,88 +119,156 @@ html[data-theme='light'] .VPHomeHero .name {
   margin-bottom: 1rem;
 }
 
+.poster-pages .poster-card,
 .home-pages .poster-card {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   gap: 1rem;
   margin: 0 auto 2rem auto;
   padding: 1rem;
   background-color: #222;
   border-radius: 12px;
-  max-width: 700px;
+  max-width: 800px;
+  transition: background 0.3s ease;
 }
 
+/* Poster Image */
+.poster-pages .poster-card img,
 .home-pages .poster-card img {
   width: 180px;
   height: 180px;
   object-fit: cover;
   border-radius: 12px;
+  flex-shrink: 0;
 }
 
+/* Poster Info */
+.poster-pages .poster-info,
 .home-pages .poster-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 0.4rem;
 }
 
-.home-pages .poster-info p {
-  margin: 0 0 0.5rem 0;
+.poster-info .poster-name {
+  font-weight: 700;
+  font-size: 1.4rem;
   color: #fff;
+  margin-bottom: 0.25rem;
+  text-align: left;
 }
 
+.poster-pages .poster-info p,
+.home-pages .poster-info p {
+  margin: 0;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Button */
+.poster-pages .poster-info a.poster-btn,
 .home-pages .poster-info a.poster-btn {
   display: inline-block;
-  width: 255px;                 /* 👈 fixed width */
-  padding: 0.3rem 0;            /* keep height consistent */
-  background-color: #ffcc00;
-  color: #000000;
+  width: fit-content;
+  min-width: 150px;
+  padding: 0.4rem 1rem;
+  background-color: #23b4e4;
+  color: #fff;
   font-weight: bold;
   border-radius: 6px;
   text-decoration: none;
-  margin-top: 0.5rem;
   text-align: center;
   transition: all 0.2s ease;
 }
 
-
-.home-pages .hidden-text {
-  display: block;
-  height: 0;
-  width: 0;
-  overflow: hidden;
-  opacity: 0;
-  pointer-events: none;
+.home-pages .poster-info a.poster-btn {
+  background-color: #ffcc00;
+  color: #000;
 }
 
-/* ===== MOBILE RESPONSIVE FIX ===== */
+.poster-pages .poster-info a.poster-btn:hover,
+.home-pages .poster-info a.poster-btn:hover {
+  filter: brightness(1.2);
+  transform: translateY(-1px);
+}
+
+/* Hidden Text for Search Index */
+.hidden-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ===== GLOW EFFECT ON SEARCH JUMP ===== */
+@keyframes glowFlash {
+  0% { box-shadow: 0 0 0px #23b4e4; background-color: #222; }
+  50% { box-shadow: 0 0 25px #23b4e4; background-color: #2a2a2a; }
+  100% { box-shadow: 0 0 0px #23b4e4; background-color: #222; }
+}
+
+.poster-card:target {
+  animation: glowFlash 2s ease-out;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 1024px) {
+  .poster-pages .poster-card,
+  .home-pages .poster-card {
+    max-width: 90%;
+  }
+}
+
 @media (max-width: 768px) {
   .poster-pages .poster-card,
   .home-pages .poster-card {
-    flex-direction: column;      /* stack image + text */
-    align-items: center;         /* center contents */
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    max-width: 90%;              /* keep nice margins */
+    max-width: 90%;
   }
 
   .poster-pages .poster-card img,
   .home-pages .poster-card img {
     width: 100%;
-    height: auto;                /* scale naturally */
-    max-width: 300px;            /* prevent giant images */
+    max-width: 300px;
+    height: auto;
   }
 
   .poster-pages .poster-info,
   .home-pages .poster-info {
-    align-items: center;         /* center name/text/button */
-  }
-
-  .poster-pages .poster-info a.poster-btn,
-  .home-pages .poster-info a.poster-btn {
-    width: 100%;                 /* button full width on mobile */
-    max-width: 250px;
+    align-items: center;
   }
 
   .poster-info .poster-name {
     text-align: center;
+  }
+
+  .poster-pages .poster-info a.poster-btn,
+  .home-pages .poster-info a.poster-btn {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .poster-pages .poster-card,
+  .home-pages .poster-card {
+    padding: 0.75rem;
+    border-radius: 10px;
+  }
+
+  .poster-info .poster-name {
+    font-size: 1.2rem;
+  }
+
+  .poster-pages .poster-info a.poster-btn,
+  .home-pages .poster-info a.poster-btn {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.8rem;
   }
 }
