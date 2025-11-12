@@ -30,139 +30,31 @@ hero:
     <div class="poster-info">
       <p class="poster-name">Boots</p> <!-- Visible name above description -->
       <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
+      <a class="poster-btn" href="https://mega.nz/folder/pGozlaQa#7Ffjmmhi6_quSZEy05OvyQ" target="_blank">Open Mega</a>
     </div>
   </div>
 </div>
 
-###  {.hidden-text}
+### Fellow Travelers {.hidden-text}
 <div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
+  <div id="fellowtravelers" class="poster-card">
+    <img src="/posters/fellowtravelers.png" alt="Scenepack Image" />
     <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
+      <p class="poster-name">Fellow Travelers</p> <!-- Visible name above description -->
       <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
+      <a class="poster-btn" href="https://mega.nz/folder/dCBFGIIC#AgwXaN5QaaR0KBnjG1vfOw" target="_blank">Open Mega</a>
     </div>
   </div>
 </div>
 
-###  {.hidden-text}
+### GEN V {.hidden-text}
 <div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
+  <div id="genv" class="poster-card">
+    <img src="/posters/genv.png" alt="Scenepack Image" />
     <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
+      <p class="poster-name">GEN V</p> <!-- Visible name above description -->
       <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
-    </div>
-  </div>
-</div>
-
-###  {.hidden-text}
-<div class="poster-pages">
-  <div id="" class="poster-card">
-    <img src="/tvshowposters/" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name"></p> <!-- Visible name above description -->
-      <p></p>
-      <a class="poster-btn" href="https://mega.nz/folder/5DoT3bbT#3aStYY-Yx1nvdQnBkHJSWg" target="_blank">Open Mega</a>
+      <a class="poster-btn" href="https://mega.nz/folder/8TQ3wKQa#IzZFjMQcHzo6m14G11hj6w" target="_blank">Open Mega</a>
     </div>
   </div>
 </div>
