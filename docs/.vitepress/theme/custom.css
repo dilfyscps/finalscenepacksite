@@ -238,3 +238,10 @@ html[data-theme='light'] .VPHomeHero .name {
     max-width: 100%;
   }
 }
+
+.VPHomeHero .last-updated {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+  margin-top: 0.5rem;
+}

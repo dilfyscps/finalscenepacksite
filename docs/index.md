@@ -6,6 +6,7 @@ hero:
   text: 
   tagline: Official Scenepack Directory
   image:
+
 ---
 
 <!-- Temporary notice -->
@@ -13,8 +14,6 @@ hero:
 Site is currently still being fixed and there are many bugs. Thank you for your patience and sorry if you refresh and it looks weird.
 </div>
 
-<!-- Last Updated Section -->
-<LastUpdated />
 
 <div class="poster-grid index-grid">
 
@@ -28,3 +27,5 @@ Site is currently still being fixed and there are many bugs. Thank you for your 
   </div>
 
 </div>
+
+<p class="last-updated">Last Updated: {{ lastUpdated }}</p>
