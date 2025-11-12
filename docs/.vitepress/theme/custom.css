@@ -108,48 +108,18 @@ html[data-theme='light'] .VPHomeHero .name {
   100% { background-position: -200% center; }
 }
 
-/* Hero action buttons */
-.VPHomeHero .actions {
+/* ===== Hero Action Buttons Centered ===== */
+.VPHomeHero .VPHeroActions {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.VPHomeHero .actions a {
-  flex: 1 1 150px;   /* same width buttons */
-  max-width: 200px;
-  padding: 0.6rem 1.5rem;
-  font-weight: 600;
-  font-size: 1rem;
-  border-radius: 8px;
-  text-decoration: none;
-  text-align: center;
-  transition: all 0.2s ease;
-}
-
-/* Light mode buttons */
-html[data-theme='light'] .VPHomeHero .actions a {
-  background-color: #0077cc;
-  color: #fff;
-}
-html[data-theme='light'] .VPHomeHero .actions a:hover {
-  filter: brightness(1.2);
-}
-
-/* Dark mode buttons */
-html[data-theme='dark'] .VPHomeHero .actions a {
-  background-color: #23b4e4;
-  color: #000;
-}
-html[data-theme='dark'] .VPHomeHero .actions a:hover {
-  filter: brightness(1.2);
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 /* ===== Poster Grid Base ===== */
 .poster-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
   justify-content: center;
   max-width: 1200px;
@@ -159,8 +129,6 @@ html[data-theme='dark'] .VPHomeHero .actions a:hover {
 }
 
 .poster-grid .poster-card {
-  flex: 0 0 22%; /* 4 per row on desktop */
-  max-width: 22%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -188,7 +156,7 @@ html[data-theme='dark'] .VPHomeHero .actions a:hover {
   justify-content: center;
   gap: 0.4rem;
   margin-top: 0.5rem;
-  align-items: center; /* center text and buttons */
+  align-items: center; /* Center button & text */
 }
 
 .poster-grid .poster-name {
@@ -216,7 +184,6 @@ html[data-theme='dark'] .VPHomeHero .actions a:hover {
   transition: all 0.2s ease;
 }
 
-/* Hover effect */
 .poster-grid .poster-info a.poster-btn:hover {
   filter: brightness(1.2);
   transform: translateY(-1px);
@@ -244,30 +211,14 @@ html[data-theme='dark'] .VPHomeHero .actions a:hover {
 }
 
 /* ===== RESPONSIVE DESIGN ===== */
-@media (max-width: 1200px) {
-  .poster-grid .poster-card {
-    flex: 0 0 22%; /* 4 per row on large screens stays same */
-    max-width: 22%;
-  }
-}
-
 @media (max-width: 900px) {
-  .poster-grid .poster-card {
-    flex: 0 0 30%; /* 3 per row on tablet */
-    max-width: 30%;
+  .poster-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* smaller cards on tablet/mobile */
   }
 }
 
-@media (max-width: 600px) {
-  .poster-grid .poster-card {
-    flex: 0 0 45%; /* 2 per row on small phones */
-    max-width: 45%;
-  }
-}
-
-@media (max-width: 400px) {
-  .poster-grid .poster-card {
-    flex: 0 0 100%; /* 1 per row on tiny screens */
-    max-width: 100%;
+@media (max-width: 480px) {
+  .poster-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* mobile */
   }
 }
