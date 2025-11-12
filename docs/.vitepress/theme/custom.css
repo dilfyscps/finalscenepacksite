@@ -83,6 +83,14 @@ html[data-theme='light'] {
   overflow: visible !important;
 }
 
+/* Center hero action buttons */
+.VPHomeHero .actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .VPHomeHero .name {
   font-weight: 800;
   color: transparent !important;
@@ -150,7 +158,7 @@ html[data-theme='light'] .VPHomeHero .name {
   justify-content: center;
   gap: 0.4rem;
   margin-top: 0.5rem;
-  align-items: center; /* Center the button and text */
+  align-items: center; /* Center button and text */
 }
 
 .poster-grid .poster-name {
@@ -220,24 +228,20 @@ html[data-theme='light'] .VPHomeHero .name {
   }
 }
 
-/* ===== MOBILE FIX ===== */
 @media (max-width: 480px) {
-  .poster-grid {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
-  }
-
   .poster-grid .poster-card {
-    flex: 0 0 45%; /* Mobile: 2 per row */
-    max-width: 45%;
+    flex: 0 0 48%; /* Mobile: 2 per row */
+    max-width: 48%;
   }
-}
 
-/* ===== Center Hero Buttons ===== */
-.VPHomeHero .VPHomeHero-actions {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  /* Scale down text to prevent uneven heights */
+  .poster-grid .poster-info p,
+  .poster-grid .poster-name {
+    font-size: 0.9rem;
+  }
+
+  .poster-grid .poster-info a.poster-btn {
+    min-width: 120px;
+    padding: 0.35rem 0.8rem;
+  }
 }
