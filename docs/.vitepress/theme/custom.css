@@ -108,14 +108,6 @@ html[data-theme='light'] .VPHomeHero .name {
   100% { background-position: -200% center; }
 }
 
-/* ===== Hero Buttons Centered ===== */
-.VPHomeHero .actions {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
 /* ===== Poster Grid Base ===== */
 .poster-grid {
   display: flex;
@@ -129,7 +121,7 @@ html[data-theme='light'] .VPHomeHero .name {
 }
 
 .poster-grid .poster-card {
-  flex: 0 0 22%; /* 4 per row desktop */
+  flex: 0 0 22%; /* Desktop: 4 per row */
   max-width: 22%;
   display: flex;
   flex-direction: column;
@@ -142,22 +134,23 @@ html[data-theme='light'] .VPHomeHero .name {
   transition: all 0.2s ease;
 }
 
+/* Poster Image */
 .poster-grid .poster-card img {
   width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 12px;
-  display: block;
-  margin: 0 auto;
+  flex-shrink: 0;
 }
 
+/* Poster Info */
 .poster-grid .poster-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 0.4rem;
   margin-top: 0.5rem;
-  align-items: center;
+  align-items: center; /* Center the button and text */
 }
 
 .poster-grid .poster-name {
@@ -185,6 +178,7 @@ html[data-theme='light'] .VPHomeHero .name {
   transition: all 0.2s ease;
 }
 
+/* Hover effect */
 .poster-grid .poster-info a.poster-btn:hover {
   filter: brightness(1.2);
   transform: translateY(-1px);
@@ -214,21 +208,36 @@ html[data-theme='light'] .VPHomeHero .name {
 /* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 1200px) {
   .poster-grid .poster-card {
-    flex: 0 0 30%; /* 3 per row tablet */
+    flex: 0 0 30%; /* Tablet: 3 per row */
     max-width: 30%;
   }
 }
 
 @media (max-width: 900px) {
   .poster-grid .poster-card {
-    flex: 0 0 45%; /* 2 per row small tablet */
+    flex: 0 0 45%; /* Small tablet: 2 per row */
     max-width: 45%;
   }
 }
 
+/* ===== MOBILE FIX ===== */
 @media (max-width: 480px) {
+  .poster-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
   .poster-grid .poster-card {
-    flex: 0 0 45%; /* 2 per row mobile */
+    flex: 0 0 45%; /* Mobile: 2 per row */
     max-width: 45%;
   }
+}
+
+/* ===== Center Hero Buttons ===== */
+.VPHomeHero .VPHomeHero-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
