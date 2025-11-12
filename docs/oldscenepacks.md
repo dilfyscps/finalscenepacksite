@@ -2,14 +2,13 @@
 layout: doc
 ---
 
-# Use the "Click Here For *Certain Sections*" on the side bar to find scenepacks easier!
+# The old search works so use that to find scenepacks for now!
 
 ‎ 
 ‎ 
 ‎ 
 
 # TV SHOWS
-## Click Here For TV Shows
 
 ## Fellow Travelers
 Packs - 1080P, 23.976 FPS
@@ -57,8 +56,6 @@ Packs - 1080P, 23.976 FPS
 
 
 # MOVIES
-
-## Click Here For Movies
 
 ## 365 Days
 Packs - 1080P, 23.976 FPS
@@ -191,7 +188,6 @@ Packs - 1080P, 23.976 FPS
 
 
 # CELEBS
-## Click Here For Celebs
 
  ## DAVID CORENSWET
 Packs - 1080P, 23.976 FPS
