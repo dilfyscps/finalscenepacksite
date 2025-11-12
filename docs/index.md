@@ -1,31 +1,32 @@
 ---
 layout: home
-customPageClass: "home-pages"
 hero:
   name: DILFYSCPS CVMSCPS
   text: 
   tagline: Official Scenepack Directory
   image:
-
+  actions:
+    - theme: brand
+      text: Affiliates
+      link: /affiliates/
+    - theme: alt
+      text: Socials
+      link: /socials/
+      
+features:
+  - icon: 🧔
+    title: OLD SCENEPACKS
+    details: USE THIS FOR MY SCENEPACKS UNTIL I CAN GET EVERYTHING BACK!
+    link: /oldscenepacks
+  - icon: 🧔
+    title: DILFYSCPS
+    details: All Scenepack links.
+    link: /dilfyscps
+  - icon: 🥛
+    title: CVMSCPS
+    details: All Scenepack links.
+    link: /cvmscps
 ---
 
-<!-- Temporary notice -->
-<div style="background: #ffcc00; color: #000; text-align:center; padding:1em; font-weight:bold;">
-Site is currently still being fixed and there are many bugs. Thank you for your patience and sorry if you refresh and it looks weird.
-</div>
-
-
-<div class="poster-grid index-grid">
-
-  <div id="oldsite" class="poster-card">
-    <img src="/posters/logo.png" alt="Scenepack Image" />
-    <div class="poster-info">
-      <p class="poster-name">OLD SCENEPACK PAGE</p>
-      <p></p>
-      <a class="poster-btn" href="/oldscenepacks" target="_blank">Click Here</a>
-    </div>
-  </div>
-
-</div>
-
-<p class="last-updated">Last Updated: {{ lastUpdated }}</p>
+> [!IMPORTANT]  
+> Website is still being updated - Dilfyscps

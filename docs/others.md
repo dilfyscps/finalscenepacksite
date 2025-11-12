@@ -7,6 +7,14 @@ hero:
   tagline: Last updated 11/12/25
   image:
 
+  actions:
+    - theme: brand
+      text: homepage
+      link: /index
+    - theme: alt
+      text: cvmscps
+      link: /cvmscps
+
 ---
 
 <div class="poster-grid">

@@ -1,3 +1,5 @@
+/* .vitepress/theme/custom.css */
+
 /* ===== Base Dark Mode ===== */
 :root {
   color-scheme: dark;
@@ -62,6 +64,7 @@ html[data-theme='light'] {
   z-index: 10;
 }
 
+/* Nav text readable */
 .VPNav .VPNavBar .title,
 .VPNav .VPNavBarMenu a,
 .VPNav .VPNavBarTitle,
@@ -75,14 +78,22 @@ html[data-theme='light'] {
 .VPHomeHero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
   text-align: center;
-  padding: 2rem 1rem;
-  gap: 1rem;
+  padding: 2rem 1rem;      /* smaller top/bottom padding */
+  gap: 1rem;               /* spacing between elements */
   overflow: visible !important;
 }
 
+/* Hero text elements */
+.VPHomeHero .name,
+.VPHomeHero .text,
+.VPHomeHero .tagline {
+  margin: 0 auto;
+}
+
+/* Hero name shine */
 .VPHomeHero .name {
   font-weight: 800;
   color: transparent !important;
@@ -103,28 +114,65 @@ html[data-theme='light'] .VPHomeHero .name {
   animation: shine 4s linear infinite;
 }
 
-@keyframes shine {
-  0% { background-position: 200% center; }
-  100% { background-position: -200% center; }
+/* Hero buttons */
+.VPHomeHero .actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* center horizontally on desktop */
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-/* ===== Hero Buttons: Forced Center (actual buttons) ===== */
-.VPHomeHero .VPHomeHeroActions {
-  width: 100%;               /* full-width container */
-  text-align: center;        /* force all content centered */
-  align-items: center;
+.VPHomeHero .actions .VPButton {
+  background-color: var(--vp-c-brand-1) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 0 20px rgba(35, 180, 228, 0.4);
+  transition: all 0.3s ease;
 }
 
-.VPHomeHero .VPHomeHeroActions a {
-  display: inline-block;     /* makes buttons centerable via text-align */
-  min-width: 150px;          /* consistent button width */
-  margin: 0.25rem;           /* spacing between buttons */
-  text-align: center;        /* centers text inside buttons */
+html[data-theme='light'] .VPHomeHero .actions .VPButton {
+  background-color: var(--vp-c-brand-1) !important;
+  color: #fff !important;
+  box-shadow: 0 0 15px rgba(0, 119, 204, 0.3);
+}
+
+.VPHomeHero .actions .VPButton:hover {
+  background-color: var(--vp-c-brand-2) !important;
+  box-shadow: 0 0 25px rgba(149, 228, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+/* ===== Mobile & Responsive ===== */
+@media (max-width: 768px) {
+  /* Stack hero words vertically */
+  .VPHomeHero .name {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    gap: 0.25rem;
+  }
+
+  .VPHomeHero .name span {
+    display: block;
+  }
+
+  /* Stack buttons vertically */
+  .VPHomeHero .actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+  }
+
+  .VPHomeHero .actions .VPButton {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+  }
 }
 
 
-
+/* ===== SPLIT SECTION ===== */
 
 
 /* ===== Poster Grid (Left-Aligned, All Rows) ===== */
