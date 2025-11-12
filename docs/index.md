@@ -14,7 +14,7 @@ hero:
       link: /socials/
       
 features:
-  - icon: 🧔
+  - icon: ⭐
     title: OLD SCENEPACKS
     details: USE THIS FOR MY SCENEPACKS UNTIL I CAN GET EVERYTHING BACK!
     link: /oldscenepacks
