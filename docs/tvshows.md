@@ -1,52 +1,171 @@
 ---
+title: TV SHOW SCENEPACKS
 layout: home
 customPageClass: "home-pages"
 hero:
-  name: OTHER SCENEPACKS
-  text: 
+  name: TV SHOW SCENEPACKS
   tagline: Last updated 11/12/25
-  image:
-
   actions:
     - theme: brand
       text: homepage
       link: /index
     - theme: alt
-      text: cvmscps
-      link: /cvmscps
+      text: dilfyscps
+      link: /dilfyscps
 ---
 
-<!-- ===== Poster Grid Start ===== -->
-<div class="poster-grid">
+## Boots
 
-  <div id="chris-stoner" class="poster-card">
-    <span class="hidden-text">Chris Stoner</span>
-    <img src="/posters/chrisstoner.png" alt="Chris Stoner" />
-    <div class="poster-info">
-      <p class="poster-name">Chris Stoner</p>
-      <a class="poster-btn" href="https://mega.nz/folder/1OBRgK6S#PaJEUazBfRZ14Tqmb4L1lQ" target="_blank">Open Mega</a>
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/boots.png" alt="Boots" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
-
-  <div id="cj-delco" class="poster-card">
-    <span class="hidden-text">Cj Delco</span>
-    <img src="/posters/cj delco.png" alt="Cj Delco" />
-    <div class="poster-info">
-      <p class="poster-name">Cj Delco</p>
-      <a class="poster-btn" href="https://mega.nz/folder/hapmhaxD#9tOzKPQpIUBoRXMy4nn8vA" target="_blank">Open Mega</a>
-    </div>
-  </div>
-
-  <div id="gabriel-coimbra" class="poster-card">
-    <span class="hidden-text">Gabriel Coimbra</span>
-    <img src="/posters/GabrielCoimbra.png" alt="Gabriel Coimbra" />
-    <div class="poster-info">
-      <p class="poster-name">Gabriel Coimbra</p>
-      <a class="poster-btn" href="https://mega.nz/folder/FfpDDYRB#TlL03DRiMTnSesgjEF0VqQ" target="_blank">Open Mega</a>
-    </div>
-  </div>
-
-  <!-- Add more poster-card divs here as needed -->
-
 </div>
-<!-- ===== Poster Grid End ===== -->
+
+## Fellow Travelers
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/fellow travelers.png" alt="Fellow Travelers" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## Gen V S2
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/genv.png" alt="Gen V S2" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## Hollywood
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/hollywood.png" alt="Hollywood" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## Looking
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/looking.png" alt="Looking" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## Olympo
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/Olympo.png" alt="Olympo" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## Peacemaker
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/Peacemaker.png" alt="Peacemaker" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## Reacher
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/Reacher.png" alt="Reacher" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## The Ed Gein Story
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/the ed gein story.png" alt="The Ed Gein Story" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## The Politician
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/the politician.png" alt="The Politician" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## We Own This City
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/we own this city.png" alt="We Own This City" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
+## Wednesday
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/wednesday.png" alt="Wednesday" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976
+      <br>
+      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
