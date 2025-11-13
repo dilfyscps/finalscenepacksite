@@ -1,49 +1,49 @@
 {
-  "hash": "81333fe4",
+  "hash": "bab5bfa8",
   "configHash": "5d0446b9",
-  "lockfileHash": "4a446461",
-  "browserHash": "320be376",
+  "lockfileHash": "e1deeb79",
+  "browserHash": "dbdac91e",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "9cba8c2f",
+      "fileHash": "5929eba8",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "6c8a603b",
+      "fileHash": "60587fbd",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
-      "src": "../../../../node_modules/@vueuse/core/index.mjs",
+      "src": "../../../../node_modules/@vueuse/core/dist/index.js",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "411d5888",
+      "fileHash": "617d63b9",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
-      "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "src": "../../../../node_modules/@vueuse/integrations/dist/useFocusTrap.js",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "64b5a09a",
+      "fileHash": "fef3f208",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "4645ab60",
+      "fileHash": "01493400",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "8e3a58e6",
+      "fileHash": "3edf1a29",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-U3IZKOIR": {
-      "file": "chunk-U3IZKOIR.js"
+    "chunk-DANOCGAA": {
+      "file": "chunk-DANOCGAA.js"
     },
     "chunk-WXMKJ4US": {
       "file": "chunk-WXMKJ4US.js"

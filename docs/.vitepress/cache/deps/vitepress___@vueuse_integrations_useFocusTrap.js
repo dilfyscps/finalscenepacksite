@@ -3,7 +3,7 @@ import {
   toArray,
   tryOnScopeDispose,
   unrefElement
-} from "./chunk-U3IZKOIR.js";
+} from "./chunk-DANOCGAA.js";
 import {
   computed,
   shallowRef,
@@ -1085,7 +1085,7 @@ var createFocusTrap = function createFocusTrap2(elements, userOptions) {
   return trap;
 };
 
-// ../node_modules/@vueuse/integrations/useFocusTrap.mjs
+// ../node_modules/@vueuse/integrations/dist/useFocusTrap-lXZ_YG-8.js
 function useFocusTrap(target, options = {}) {
   let trap;
   const { immediate, ...focusTrapOptions } = options;
@@ -1105,44 +1105,32 @@ function useFocusTrap(target, options = {}) {
       isPaused.value = false;
     }
   };
-  const targets = computed(() => {
-    const _targets = toValue(target);
-    return toArray(_targets).map((el) => {
+  watch(computed(() => {
+    return toArray(toValue(target)).map((el) => {
       const _el = toValue(el);
       return typeof _el === "string" ? _el : unrefElement(_el);
     }).filter(notNullish);
-  });
-  watch(
-    targets,
-    (els) => {
-      if (!els.length)
-        return;
-      if (!trap) {
-        trap = createFocusTrap(els, {
-          ...focusTrapOptions,
-          onActivate() {
-            hasFocus.value = true;
-            if (options.onActivate)
-              options.onActivate();
-          },
-          onDeactivate() {
-            hasFocus.value = false;
-            if (options.onDeactivate)
-              options.onDeactivate();
-          }
-        });
-        if (immediate)
-          activate();
-      } else {
-        const isActive = trap == null ? void 0 : trap.active;
-        trap == null ? void 0 : trap.updateContainerElements(els);
-        if (!isActive && immediate) {
-          activate();
+  }), (els) => {
+    if (!els.length) return;
+    if (!trap) {
+      trap = createFocusTrap(els, {
+        ...focusTrapOptions,
+        onActivate() {
+          hasFocus.value = true;
+          if (options.onActivate) options.onActivate();
+        },
+        onDeactivate() {
+          hasFocus.value = false;
+          if (options.onDeactivate) options.onDeactivate();
         }
-      }
-    },
-    { flush: "post" }
-  );
+      });
+      if (immediate) activate();
+    } else {
+      const isActive = trap === null || trap === void 0 ? void 0 : trap.active;
+      trap === null || trap === void 0 || trap.updateContainerElements(els);
+      if (!isActive && immediate) activate();
+    }
+  }, { flush: "post" });
   tryOnScopeDispose(() => deactivate());
   return {
     hasFocus,

@@ -192,35 +192,51 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
 }
 
 /* ===== Mobile only ===== */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .poster-grid {
     display: flex;
-    overflow-x: auto; /* allow horizontal scroll */
-    gap: 1rem;
+    overflow-x: auto;  /* allow horizontal scroll */
+    gap: 0.5rem;
     padding: 1rem 0;
   }
 
   .poster-box {
-    display: inline-block;  /* let multiple fit side by side */
-    width: 45%;             /* 2 per screen; change to 30% for 3 per screen */
-    margin-right: 1rem;
+    display: flex;          /* keep description and image side by side */
+    flex-direction: row;    /* row layout */
+    justify-content: space-between; /* push image to right */
+    align-items: center;
+    width: 100%;             /* two per screen approx */
+    min-height: 150px;      /* ensure minimum height */
     padding: 0.5rem;
+    margin-right: 1rem;
+    background: #222;       /* same background as desktop */
+    border-radius: 0.75rem;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
   }
 
   .poster-content {
-    flex-direction: column; /* stack image and description */
+    display: flex;
+    flex-direction: row;   /* keep description on left, image on right */
     align-items: center;
-    text-align: center;
-  }
-
-  .poster-img {
-    width: 100%;         /* fill the smaller box */
-    max-width: 150px;    /* optional max for consistency */
-    height: auto;
-    margin-bottom: 0.5rem;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
   }
 
   .poster-description {
-    font-size: 0.9rem;   /* slightly smaller text */
+    color: #fff;
+    font-size: 0.9rem;
+    flex: 1;               /* take remaining space */
+  }
+
+  .poster-img {
+    width: auto;
+    max-width: 120px;      /* smaller image on mobile */
+    height: 100%;          /* stretch to match box height if needed */
+    object-fit: contain;   /* keep aspect ratio */
+  }
+
+  .poster-btn {
+    margin-top: 0.5rem;    /* below description */
   }
 }

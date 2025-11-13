@@ -21,7 +21,7 @@ hero:
   <div class="poster-content">
     <img src="/posters/chrisstoner.png" alt="Chris Stoner" class="poster-img" />
     <div class="poster-description">
-      Contains the full Chris Stoner scenepack collection, including all rare releases.
+      Contains: X (Vids & Photos)
       <br>
       <a href="https://mega.nz/folder/1OBRgK6S#PaJEUazBfRZ14Tqmb4L1lQ" target="_blank" class="poster-btn">Open Mega</a>
     </div>
