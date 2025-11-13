@@ -238,3 +238,15 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   }
 }
 
+/* Force all h2 headers inside home-pages content to center */
+.home-pages .vp-doc-content h2,
+.home-pages .vp-doc-content h2::before,
+.home-pages .vp-doc-content h2::after {
+  display: block !important;
+  width: 100% !important;
+  text-align: center !important;
+  margin: 0 auto 0.5rem auto !important;
+  color: #fff !important;
+  font-weight: 800 !important;
+}
+
