@@ -21,6 +21,7 @@ features:
     link: /movies
   - icon: 💵
     title: Celebrities
-    details:  Not Done Yet
+    details: Scenepacks of Celebrities. Ex "Pedro Pascal" & "Tom Holland"
+    link: /celebrities
 
 ---
