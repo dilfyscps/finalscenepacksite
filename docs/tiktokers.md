@@ -29,7 +29,7 @@ hero:
 ## Abesolervicens
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/" alt="Abesolervicens" class="poster-img" />
+    <img src="" alt="Abesolervicens" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -41,7 +41,7 @@ hero:
 ## Aj Carey
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/ajcarey.png" alt="Aj Carey" class="poster-img" />
+    <img src="" alt="Aj Carey" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -53,7 +53,7 @@ hero:
 ## Alex Mendes
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/alexmendes.png" alt="Alex Mendes" class="poster-img" />
+    <img src="" alt="Alex Mendes" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -65,7 +65,7 @@ hero:
 ## Alexstotherfitted
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/alexstotherfitted.png" alt="Alexstotherfitted" class="poster-img" />
+    <img src="" alt="Alexstotherfitted" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -77,7 +77,7 @@ hero:
 ## Animaraad
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/animaraad.png" alt="Animaraad" class="poster-img" />
+    <img src="" alt="Animaraad" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -89,7 +89,7 @@ hero:
 ## Arianfzn
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/arianfzn.png" alt="Arianfzn" class="poster-img" />
+    <img src="" alt="Arianfzn" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -101,7 +101,7 @@ hero:
 ## Asher Angel
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/asherangel.png" alt="Asher Angel" class="poster-img" />
+    <img src="" alt="Asher Angel" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -113,7 +113,7 @@ hero:
 ## August Beringer
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/augustberinger.png" alt="August Beringer" class="poster-img" />
+    <img src="" alt="August Beringer" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -125,7 +125,7 @@ hero:
 ## Austintaylorrrr
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/austintaylorrrr.png" alt="Austintaylorrrr" class="poster-img" />
+    <img src="" alt="Austintaylorrrr" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -137,7 +137,7 @@ hero:
 ## Bachbuquen
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/bachbuquen.png" alt="Bachbuquen" class="poster-img" />
+    <img src="" alt="Bachbuquen" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -149,7 +149,7 @@ hero:
 ## Bwclblake
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/bwclblake.png" alt="Bwclblake" class="poster-img" />
+    <img src="" alt="Bwclblake" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -161,7 +161,7 @@ hero:
 ## Cashmoneyrk
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/cashmoneyrk.png" alt="Cashmoneyrk" class="poster-img" />
+    <img src="" alt="Cashmoneyrk" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -173,7 +173,7 @@ hero:
 ## Chaseryde28
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/chaseryde28.png" alt="Chaseryde28" class="poster-img" />
+    <img src="" alt="Chaseryde28" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
@@ -185,7 +185,7 @@ hero:
 ## Chris Hatton
 <div class="poster-box">
   <div class="poster-content">
-    <img src="/posters/chrishatton.png" alt="Chris Hatton" class="poster-img" />
+    <img src="" alt="Chris Hatton" class="poster-img" />
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
