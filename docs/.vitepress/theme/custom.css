@@ -282,31 +282,34 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   animation: glowFlash 2s ease-out;
 }
 
-/* ===== Responsive Design ===== */
+/* ===== Responsive Design (2 per row, auto-balance spacing) ===== */
 @media (max-width: 1200px) {
   .poster-grid .poster-card {
-    flex: 0 1 45%;   /* 2 per row */
+    flex: 0 1 calc(50% - 0.5rem); /* 2 per row with gap accounted for */
+    min-width: 180px;
   }
   .poster-grid {
-    justify-content: space-between; /* auto-balance spacing */
+    justify-content: flex-start;
   }
 }
 
 @media (max-width: 900px) {
   .poster-grid .poster-card {
-    flex: 0 1 45%;   /* 2 per row */
+    flex: 0 1 calc(50% - 0.5rem); /* 2 per row */
+    min-width: 160px;
   }
   .poster-grid {
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 }
 
 @media (max-width: 480px) {
   .poster-grid .poster-card {
-    flex: 0 1 42%;       /* slightly smaller tiles */
-    min-width: 180px;    /* allow shrinking on tiny screens */
+    flex: 0 1 calc(50% - 0.5rem); /* 2 per row on mobile */
+    min-width: 140px;
+    padding: 0.8rem; /* slightly smaller padding */
   }
   .poster-grid {
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 }
