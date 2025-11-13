@@ -27,6 +27,3 @@ features:
     details: All Scenepack links.
     link: /cvmscps
 ---
-
-> [!IMPORTANT]  
-> Website is still being updated - Dilfyscps

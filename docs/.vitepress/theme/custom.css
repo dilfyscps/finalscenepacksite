@@ -78,11 +78,11 @@ html[data-theme='light'] {
 .VPHomeHero {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertical centering */
-  align-items: center;     /* horizontal centering */
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 2rem 1rem;      /* smaller top/bottom padding */
-  gap: 1rem;               /* spacing between elements */
+  padding: 2rem 1rem;
+  gap: 1rem;
   overflow: visible !important;
 }
 
@@ -118,7 +118,7 @@ html[data-theme='light'] .VPHomeHero .name {
 .VPHomeHero .actions {
   display: flex;
   flex-direction: row;
-  justify-content: center; /* center horizontally on desktop */
+  justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -145,7 +145,6 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
 
 /* ===== Mobile & Responsive ===== */
 @media (max-width: 768px) {
-  /* Stack hero words vertically */
   .VPHomeHero .name {
     display: flex;
     flex-direction: column;
@@ -157,7 +156,6 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
     display: block;
   }
 
-  /* Stack buttons vertically */
   .VPHomeHero .actions {
     flex-direction: column;
     width: 100%;
@@ -168,6 +166,75 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
     width: 100%;
     max-width: 240px;
     margin: 0 auto;
+  }
+}
+
+.poster-box {
+  background: #222;          
+  border-radius: 0.75rem;    
+  padding: 1rem;             
+  margin-bottom: 1.5rem;     
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.poster-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(0, 160, 252, 0.2);
+}
+
+.poster-content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;  /* allows stacking on small screens */
+}
+
+.poster-img {
+  width: 120px;
+  height: auto;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.poster-description {
+  flex: 1;
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+}
+
+.poster-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: #00a0fc4e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.poster-btn:hover {
+  background: #0080c0;
+}
+
+/* ===== Responsive: stack image on top of description ===== */
+@media (max-width: 768px) {
+  .poster-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .poster-img {
+    width: 80%;
+    max-width: 250px;
+    margin-bottom: 0.5rem;
+  }
+
+  .poster-description {
+    width: 100%;
   }
 }
 

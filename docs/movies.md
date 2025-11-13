@@ -362,71 +362,19 @@ hero:
 
 </div>
 
-<style>
-.poster-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 20px;
-  justify-items: center;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
-.poster-card {
-  background: #1b1b1b;
-  border-radius: 10px;
-  overflow: hidden;
-  text-align: center;
-  width: 100%;
-  max-width: 180px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-}
-
-.poster-card img {
-  width: 100%;
-  border-bottom: 1px solid #333;
-  object-fit: cover;
-}
-
-.poster-info {
-  padding: 10px;
-}
-
-.poster-name {
-  font-size: 14px;
-  color: #fff;
-  margin: 5px 0;
-}
-
-.poster-btn {
-  display: inline-block;
-  background: #4391bd74;
-  color: #fff;
-  padding: 6px 12px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 13px;
-  margin-top: 5px;
-}
-
-.hidden-text {
-  display: none;
-}
-</style>
 
 <script>
-const searchInput = document.getElementById('search');
-const posters = document.querySelectorAll('.poster-card');
+if (typeof window !== 'undefined') {
+  const searchInput = document.getElementById('poster-search');
+  const posters = document.querySelectorAll('.poster-card');
 
-searchInput.addEventListener('input', () => {
-  const term = searchInput.value.toLowerCase();
-  posters.forEach(poster => {
-    const title = poster.dataset.title.toLowerCase();
-    poster.style.display = title.includes(term) ? 'flex' : 'none';
+  searchInput.addEventListener('input', () => {
+    const term = searchInput.value.toLowerCase();
+    posters.forEach(poster => {
+      const title = poster.dataset.title.toLowerCase();
+      poster.style.display = title.includes(term) ? 'flex' : 'none';
+    });
   });
-});
+}
 </script>

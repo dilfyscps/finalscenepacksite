@@ -1,70 +1,52 @@
 {
-  "hash": "ad12f02c",
+  "hash": "81333fe4",
   "configHash": "5d0446b9",
-  "lockfileHash": "ab94045c",
-  "browserHash": "c337bd7e",
+  "lockfileHash": "4a446461",
+  "browserHash": "320be376",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "012f2f51",
+      "fileHash": "9cba8c2f",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "86fe4d18",
+      "fileHash": "6c8a603b",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "d0296d70",
+      "fileHash": "411d5888",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "1a7e4054",
+      "fileHash": "64b5a09a",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "4bc2371e",
+      "fileHash": "4645ab60",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "e11a8614",
-      "needsInterop": false
-    },
-    "@vercel/analytics": {
-      "src": "../../../../node_modules/@vercel/analytics/dist/index.mjs",
-      "file": "@vercel_analytics.js",
-      "fileHash": "90f6f829",
-      "needsInterop": false
-    },
-    "@vercel/speed-insights": {
-      "src": "../../../../node_modules/@vercel/speed-insights/dist/index.mjs",
-      "file": "@vercel_speed-insights.js",
-      "fileHash": "5632d3a8",
-      "needsInterop": false
-    },
-    "vitepress-carbon/config": {
-      "src": "../../../../node_modules/vitepress-carbon/dist/theme/config/baseConfig.js",
-      "file": "vitepress-carbon_config.js",
-      "fileHash": "21a2bf33",
+      "fileHash": "8e3a58e6",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-KKYSYUBW": {
-      "file": "chunk-KKYSYUBW.js"
+    "chunk-U3IZKOIR": {
+      "file": "chunk-U3IZKOIR.js"
     },
-    "chunk-ISA6VLYW": {
-      "file": "chunk-ISA6VLYW.js"
+    "chunk-WXMKJ4US": {
+      "file": "chunk-WXMKJ4US.js"
     }
   }
 }
