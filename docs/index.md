@@ -9,9 +9,6 @@ hero:
     - theme: brand
       text: Affiliates
       link: /affiliates/
-    - theme: alt
-      text: Socials
-      link: /socials/
       
 features:
   - icon: 🧔
