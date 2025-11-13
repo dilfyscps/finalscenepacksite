@@ -1,5 +1,3 @@
-import "./chunk-5WRI5ZAA.js";
-
 // node_modules/@vercel/speed-insights/dist/index.mjs
 var name = "@vercel/speed-insights";
 var version = "1.2.0";

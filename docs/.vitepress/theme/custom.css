@@ -171,90 +171,71 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   }
 }
 
-/* ===== SPLIT SECTION ===== */
 
-/* ===== Poster Grid (Desktop: Flexbox) ===== */
+/* ===== Poster Grid ===== */
 .poster-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
   box-sizing: border-box;
 }
 
-.poster-grid .poster-card {
-  flex: 0 1 22%;           /* 4 per row on desktop */
+/* ===== Poster Card ===== */
+.poster-card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
   background-color: var(--vp-c-bg-elv);
   border-radius: 12px;
-  padding: 1rem;
-  min-height: 350px;
-  transition: all 0.2s ease;
-  box-sizing: border-box;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.poster-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(35, 180, 228, 0.4);
 }
 
 /* Poster Image */
-.poster-grid .poster-card img {
+.poster-card img {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: 12px;
-  flex-shrink: 0;
 }
 
 /* Poster Info */
-.poster-grid .poster-info {
+.poster-info {
+  padding: 0.75rem 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 0.3rem;
+  text-align: center;
+}
+
+.poster-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #ffffff;
+  word-break: break-word;
+}
+
+.poster-btn {
   margin-top: 0.5rem;
-  text-align: center;
-}
-
-.poster-grid .poster-name {
-  font-weight: 700;
-  font-size: 1rem;
-  color: #fff;
-  width: 90%;
-  text-align: center;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
-}
-
-.poster-grid .poster-info p {
-  margin: 0;
-  color: #fff;
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-}
-
-.poster-grid .poster-info a.poster-btn {
-  display: inline-flex;
-  min-width: 150px;
   padding: 0.4rem 1rem;
-  background-color: #23b4e4;
+  background-color: #21363d;
   color: #fff;
   font-weight: bold;
   border-radius: 6px;
   text-decoration: none;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.2s ease;
+  transition: background 0.2s, transform 0.2s;
 }
 
-/* Hover effect */
-.poster-grid .poster-info a.poster-btn:hover {
-  filter: brightness(1.2);
+.poster-btn:hover {
+  background-color: #1fa2d8;
   transform: translateY(-1px);
 }
 
@@ -268,54 +249,13 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   white-space: nowrap;
 }
 
-/* ===== GLOW EFFECT ON SEARCH JUMP ===== */
+/* ===== Glow Effect on Targeted Card ===== */
 @keyframes glowFlash {
-  0% { box-shadow: 0 0 0px #23b4e4; background-color: var(--vp-c-bg-elv); }
-  50% { box-shadow: 0 0 25px #23b4e4; background-color: #2a2a2a; }
+  0%   { box-shadow: 0 0 0px #23b4e4; background-color: var(--vp-c-bg-elv); }
+  50%  { box-shadow: 0 0 25px #23b4e4; background-color: #2a2a2a; }
   100% { box-shadow: 0 0 0px #23b4e4; background-color: var(--vp-c-bg-elv); }
 }
 
-.poster-grid .poster-card:target {
+.poster-card:target {
   animation: glowFlash 2s ease-out;
 }
-
-/* ===== Responsive Design ===== */
-
-/* Tablet & below: CSS Grid 2-per-row */
-@media (max-width: 1200px) {
-  .poster-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 per row */
-    gap: 1rem;
-  }
-
-  .poster-grid .poster-card {
-    flex: unset;      /* reset flex properties */
-    min-width: unset;  /* allow grid to size properly */
-  }
-}
-
-/* Small tablets / large phones */
-@media (max-width: 900px) {
-  .poster-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 per row */
-    gap: 0.8rem;
-  }
-
-  .poster-grid .poster-card {
-    padding: 0.9rem;
-  }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-  .poster-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 per row */
-    gap: 0.6rem;
-  }
-
-  .poster-grid .poster-card {
-    padding: 0.8rem; /* slightly smaller for mobile */
-  }
-}
-
