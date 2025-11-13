@@ -7,7 +7,7 @@
   color-scheme: dark;
 
   /* Background colors */
-  --vp-c-bg: #1b1b1b;
+  --vp-c-bg: transparent;
   --vp-c-bg-alt: #050505;
   --vp-c-bg-elv: #222;
 
