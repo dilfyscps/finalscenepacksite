@@ -299,6 +299,6 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
 
 @media (max-width: 480px) {
   .poster-grid .poster-card {
-    flex: 0 1 100%;  /* 1 per row */
+    flex: 0 1 48%;   /* 2 per row on mobile */
   }
 }
