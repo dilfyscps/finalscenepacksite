@@ -171,15 +171,21 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   }
 }
 
-
-/* ===== SPLIT SECTION ===== */
-
+/* Hidden Text for Search Index */
+.hidden-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
 
 /* ===== Poster Grid (Left-Aligned, All Rows) ===== */
 .poster-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* all rows start from left */
+  justify-content: flex-start; /* default for desktop */
   gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -187,6 +193,7 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   box-sizing: border-box;
 }
 
+/* Poster Cards remain unchanged */
 .poster-grid .poster-card {
   flex: 0 1 22%;           /* up to 4 per row on desktop */
   min-width: 250px;
@@ -201,93 +208,16 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   box-sizing: border-box;
   min-height: 350px;
   transition: all 0.2s ease;
-  margin: 0;               /* ensures all rows align left */
-}
-
-/* Poster Image */
-.poster-grid .poster-card img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 12px;
-  flex-shrink: 0;
-}
-
-/* Poster Info */
-.poster-grid .poster-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 0.3rem;
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-.poster-grid .poster-name {
-  font-weight: 700;
-  font-size: 1rem;
-  color: #fff;
-  width: 90%;
-  text-align: center;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
-}
-
-.poster-grid .poster-info p {
   margin: 0;
-  color: #fff;
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-}
-
-.poster-grid .poster-info a.poster-btn {
-  display: inline-flex;
-  min-width: 150px;
-  padding: 0.4rem 1rem;
-  background-color: #23b4e4;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 6px;
-  text-decoration: none;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.2s ease;
-}
-
-/* Hover effect */
-.poster-grid .poster-info a.poster-btn:hover {
-  filter: brightness(1.2);
-  transform: translateY(-1px);
-}
-
-/* Hidden Text for Search Index */
-.hidden-text {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-}
-
-/* ===== GLOW EFFECT ON SEARCH JUMP ===== */
-@keyframes glowFlash {
-  0% { box-shadow: 0 0 0px #23b4e4; background-color: var(--vp-c-bg-elv); }
-  50% { box-shadow: 0 0 25px #23b4e4; background-color: #2a2a2a; }
-  100% { box-shadow: 0 0 0px #23b4e4; background-color: var(--vp-c-bg-elv); }
-}
-
-.poster-grid .poster-card:target {
-  animation: glowFlash 2s ease-out;
 }
 
 /* ===== Responsive Design ===== */
 @media (max-width: 1200px) {
   .poster-grid .poster-card {
-    flex: 0 1 30%;   /* 3 per row */
+    flex: 0 1 45%;   /* 2 per row */
+  }
+  .poster-grid {
+    justify-content: space-between; /* auto-balance spacing */
   }
 }
 
@@ -295,10 +225,18 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   .poster-grid .poster-card {
     flex: 0 1 45%;   /* 2 per row */
   }
+  .poster-grid {
+    justify-content: space-between; /* auto-balance spacing */
+  }
 }
 
 @media (max-width: 480px) {
   .poster-grid .poster-card {
-    flex: 0 1 48%;   /* 2 per row on mobile */
+    flex: 0 1 45%;   /* 2 per row on all phones */
+  }
+  .poster-grid {
+    justify-content: space-between; /* auto-balance spacing */
   }
 }
+
+.poster-grid .poster-info a.poster-btn { display: inline-flex; min-width: 150px; padding: 0.4rem 1rem; background-color: #23b4e4; color: #fff; font-weight: bold; border-radius: 6px; text-decoration: none; text-align: center; justify-content: center; align-items: center; transition: all 0.2s ease; }
