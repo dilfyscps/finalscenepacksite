@@ -9,6 +9,7 @@ features:
   - icon: ⭐
     title: OLD SCENEPACKS
     details: USE THIS FOR MY SCENEPACKS UNTIL I CAN GET 
+    link: /oldscenepacks
 ---
 ‎ 
 <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:15vh; text-align:center; padding:2rem; gap:0rem; background-color:#ffeb3b; color:#000; border-radius:12px;">
