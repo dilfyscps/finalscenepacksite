@@ -14,9 +14,9 @@ hero:
       link: /cvmscps
 ---
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-Chris Stoner
-</div>
+
+## Chris Stoner
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/chrisstoner.png" alt="Chris Stoner" class="poster-img" />
@@ -28,9 +28,9 @@ Chris Stoner
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-Cj Delco
-</div>
+
+## Cj Delco
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/cj delco.png" alt="Cj Delco" class="poster-img" />
@@ -42,9 +42,9 @@ Cj Delco
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-Gabriel Coimbra
-</div>
+
+## Gabriel Coimbra
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/GabrielCoimbra.png" alt="Gabriel Coimbra" class="poster-img" />
@@ -56,9 +56,9 @@ Gabriel Coimbra
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-Alpha God Adonis
-</div>
+
+## Alpha God Adonis
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/adonis.png" alt="Alpha God Adonis" class="poster-img" />
@@ -70,9 +70,9 @@ Alpha God Adonis
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-ImJustinMac
-</div>
+
+## ImJustinMac
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/ImJustinMac.png" alt="ImJustinMac" class="poster-img" />
@@ -84,9 +84,9 @@ ImJustinMac
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-Ivan Cidrian
-</div>
+
+## Ivan Cidrian
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/ivancidrian.png" alt="Ivan Cidrian" class="poster-img" />
@@ -98,9 +98,9 @@ Ivan Cidrian
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-Josh Loz
-</div>
+
+## Josh Loz
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/joshloz.png" alt="Josh Loz" class="poster-img" />
@@ -112,9 +112,9 @@ Josh Loz
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-Mauro X Andress
-</div>
+
+## Mauro X Andress
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/mauro.png" alt="Mauro X Andress" class="poster-img" />
@@ -126,9 +126,9 @@ Mauro X Andress
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-MaxedNate
-</div>
+
+## MaxedNate
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/maxednate.png" alt="MaxedNate" class="poster-img" />
@@ -140,9 +140,9 @@ MaxedNate
   </div>
 </div>
 
-<div style="text-align:center; font-weight:700; font-size:1.5rem; color:#fff; margin-bottom:1.2rem;">
-Popeyoso
-</div>
+
+## Popeyoso
+
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/popeyoso.png" alt="Popeyoso" class="poster-img" />

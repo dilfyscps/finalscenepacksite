@@ -143,110 +143,84 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   transform: translateY(-2px);
 }
 
-/* ===== Mobile & Responsive ===== */
-@media (max-width: 768px) {
-  .VPHomeHero .name {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.25rem;
-  }
-
-  .VPHomeHero .name span {
-    display: block;
-  }
-
-  .VPHomeHero .actions {
-    flex-direction: column;
-    width: 100%;
-    gap: 0.75rem;
-  }
-
-  .VPHomeHero .actions .VPButton {
-    width: 100%;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-}
-
+/* ===== Poster Grid & Cards ===== */
 .poster-box {
-  background: #222;          
-  border-radius: 0.75rem;    
-  padding: 1rem;             
-  margin-bottom: 1.5rem;     
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.poster-box:hover {
-  transform: scale(1.02);
-  box-shadow: 0 0 25px rgba(0, 160, 252, 0.2);
+  background: #222;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 .poster-content {
   display: flex;
-  gap: 1rem;
+  flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;  /* allows stacking on small screens */
+  gap: 1rem;
 }
 
 .poster-img {
-  width: 120px;
+  width: 200px; /* Desktop size */
   height: auto;
   border-radius: 0.5rem;
-  flex-shrink: 0;
 }
 
 .poster-description {
-  flex: 1;
   color: #fff;
-  font-size: 0.95rem;
-  line-height: 1.3rem;
+  font-size: 1rem;
 }
 
 .poster-btn {
-  display: inline-block;
   margin-top: 0.5rem;
-  padding: 0.4rem 0.8rem;
-  background: #00a0fc4e;
+  padding: 0.5rem 0.8rem;
+  background: #00a0fc5e;
   color: #fff;
   text-decoration: none;
   border-radius: 0.25rem;
-  font-size: 0.85rem;
+  display: inline-block;
 }
 
 .poster-btn:hover {
   background: #0080c0;
 }
 
-/* ===== Responsive: stack image on top of description ===== */
+/* ===== Desktop (leave unchanged) ===== */
+.poster-img {
+  width: 150px; /* desktop size stays fixed */
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+/* ===== Mobile only ===== */
 @media (max-width: 768px) {
+  .poster-grid {
+    display: flex;
+    overflow-x: auto; /* allow horizontal scroll */
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .poster-box {
+    display: inline-block;  /* let multiple fit side by side */
+    width: 45%;             /* 2 per screen; change to 30% for 3 per screen */
+    margin-right: 1rem;
+    padding: 0.5rem;
+  }
+
   .poster-content {
-    flex-direction: column;
+    flex-direction: column; /* stack image and description */
     align-items: center;
     text-align: center;
   }
 
   .poster-img {
-    width: 80%;
-    max-width: 250px;
+    width: 100%;         /* fill the smaller box */
+    max-width: 150px;    /* optional max for consistency */
+    height: auto;
     margin-bottom: 0.5rem;
   }
 
   .poster-description {
-    width: 100%;
+    font-size: 0.9rem;   /* slightly smaller text */
   }
 }
-
-/* Force all h2 headers inside home-pages content to center */
-.home-pages .vp-doc-content h2,
-.home-pages .vp-doc-content h2::before,
-.home-pages .vp-doc-content h2::after {
-  display: block !important;
-  width: 100% !important;
-  text-align: center !important;
-  margin: 0 auto 0.5rem auto !important;
-  color: #fff !important;
-  font-weight: 800 !important;
-}
-
