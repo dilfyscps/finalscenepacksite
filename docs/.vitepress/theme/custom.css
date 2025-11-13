@@ -1,56 +1,60 @@
-/* .vitepress/theme/custom.css */
+/* ================================================ */
+/*                  VITEPRESS CUSTOM CSS           */
+/* ================================================ */
 
 /* ===== Base Dark Mode ===== */
 :root {
   color-scheme: dark;
 
+  /* Background colors */
   --vp-c-bg: #1b1b1b;
   --vp-c-bg-alt: #050505;
   --vp-c-bg-elv: #222;
 
+  /* Text colors */
   --vp-c-text-1: #ffffff;
   --vp-c-text-2: #eaeaea;
   --vp-c-text-3: #00a0fc;
 
+  /* Brand colors */
   --vp-c-brand-1: #23b4e4;
   --vp-c-brand-2: #95e4ff;
   --vp-c-brand-3: #25addb;
 
   --vp-c-border: #2f2f2f;
 
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ffffff, #7df0ff);
-
+  /* Code blocks */
   --vp-code-block-bg: #242424;
   --vp-code-block-color: #ffffff;
 }
 
-/* ===== Light Mode ===== */
-html[data-theme='light'] {
-  color-scheme: light;
-
-  --vp-c-bg: #ffffff;
-  --vp-c-bg-alt: #f9f9f9;
-  --vp-c-bg-elv: #ffffff;
-
-  --vp-c-text-1: #111111;
-  --vp-c-text-2: #333333;
-  --vp-c-text-3: #23b4e4;
-
-  --vp-c-brand-1: #0077cc;
-  --vp-c-brand-2: #33c2ff;
-  --vp-c-brand-3: #00aaff;
-
-  --vp-c-border: #e0e0e0;
-
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #0077cc, #33c2ff, #0077cc);
-
-  --vp-code-block-bg: #f5f5f5;
-  --vp-code-block-color: #000000;
+/* ================================================ */
+/*             FULL PAGE DARK GRADIENT             */
+/* ================================================ */
+html, body, #app, .VPPage, .VPContent {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #132549, #0a265f, #125293);
+  background-size: 400% 400%;
+  background-attachment: fixed; /* keep gradient seamless */
+  animation: gradientBG 20s ease infinite;
 }
 
-/* ===== Transparent Nav Bar ===== */
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Ensure inner sections are transparent */
+.VPContent, .VPHome, .poster-box, .poster-grid, .VPPage > * {
+  background: transparent !important;
+}
+
+/* ================================================ */
+/*             TRANSPARENT NAVIGATION BAR          */
+/* ================================================ */
 .VPNav {
   background-color: transparent !important;
   backdrop-filter: blur(8px);
@@ -64,7 +68,6 @@ html[data-theme='light'] {
   z-index: 10;
 }
 
-/* Nav text readable */
 .VPNav .VPNavBar .title,
 .VPNav .VPNavBarMenu a,
 .VPNav .VPNavBarTitle,
@@ -74,47 +77,52 @@ html[data-theme='light'] {
   transition: color 0.3s ease;
 }
 
-/* ===== Hero Section ===== */
+/* ================================================ */
+/*                   HERO SECTION                  */
+/* ================================================ */
 .VPHomeHero {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
   text-align: center;
   padding: 2rem 1rem;
   gap: 1rem;
   overflow: visible !important;
+  width: 100%;
 }
 
-/* Hero text elements */
-.VPHomeHero .name,
-.VPHomeHero .text,
-.VPHomeHero .tagline {
-  margin: 0 auto;
+/* Hero subtitle / tagline */
+.VPHomeHero .text {
+  font-size: 2rem;      
+  line-height: 1.4;      
+  max-width: 600px;      
+  text-align: center;     
+  margin: 0 auto;        
 }
 
-/* Hero name shine */
+/* ===== HERO NAME WITH DROP SHADOW ===== */
 .VPHomeHero .name {
   font-weight: 800;
-  color: transparent !important;
+  font-size: 3rem;
   background: linear-gradient(120deg, #ffffff, #7df0ff, #ffffff);
   background-size: 200% auto;
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 4s linear infinite;
+  display: inline-block;
+  text-align: center;
+  animation: shineText 4s linear infinite;
+  margin: 0 auto;
 }
 
-html[data-theme='light'] .VPHomeHero .name {
-  background: linear-gradient(120deg, #0077cc, #33c2ff, #0077cc);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 4s linear infinite;
+/* Hero shine animation */
+@keyframes shineText {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-/* Hero buttons */
+/* Hero buttons / features container */
 .VPHomeHero .actions {
   display: flex;
   flex-direction: row;
@@ -123,33 +131,56 @@ html[data-theme='light'] .VPHomeHero .name {
   flex-wrap: wrap;
 }
 
+/* Hero feature buttons / semi-transparent background */
 .VPHomeHero .actions .VPButton {
-  background-color: var(--vp-c-brand-1) !important;
+  background-color: rgba(35, 130, 220, 0.4);
   color: #fff !important;
   border: none !important;
-  box-shadow: 0 0 20px rgba(35, 180, 228, 0.4);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  backdrop-filter: blur(8px);
   transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,255,150,0.2);
 }
 
-html[data-theme='light'] .VPHomeHero .actions .VPButton {
-  background-color: var(--vp-c-brand-1) !important;
-  color: #fff !important;
-  box-shadow: 0 0 15px rgba(0, 119, 204, 0.3);
-}
-
+/* Only scale buttons on hover, not outer box */
 .VPHomeHero .actions .VPButton:hover {
-  background-color: var(--vp-c-brand-2) !important;
-  box-shadow: 0 0 25px rgba(149, 228, 255, 0.6);
-  transform: translateY(-2px);
+  transform: scale(1.05);
+  background-color: rgba(35, 180, 228, 0.6);
+  box-shadow: 0 0 25px rgba(0,255,150,0.4);
 }
 
-/* ===== Poster Grid & Cards ===== */
+/* Green glow behind buttons */
+.VPHomeHero .actions .VPButton::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0,255,150,0.15), transparent 70%);
+  transform: translateX(0) translateY(0);
+  transition: transform 0.5s ease;
+  pointer-events: none;
+}
+
+.VPHomeHero .actions .VPButton:hover::before {
+  transform: translateX(5px) translateY(5px);
+}
+
+/* ================================================ */
+/*                 POSTER GRID & CARDS            */
+/* ================================================ */
 .poster-box {
-  background: #222;
+  background: #00000099 !important;
   padding: 1rem;
   border-radius: 0.75rem;
   margin-bottom: 1.5rem;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  box-shadow: 0 0 100px rgba(0,0,0,0.5);
 }
 
 .poster-content {
@@ -160,7 +191,7 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
 }
 
 .poster-img {
-  width: 200px; /* Desktop size */
+  width: 200px; 
   height: auto;
   border-radius: 0.5rem;
 }
@@ -184,39 +215,39 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   background: #0080c0;
 }
 
-/* ===== Desktop (leave unchanged) ===== */
+/* Desktop adjustments */
 .poster-img {
-  width: 150px; /* desktop size stays fixed */
+  width: 150px;
   height: auto;
   border-radius: 0.5rem;
 }
 
-/* ===== Mobile only ===== */
+/* Mobile Only */
 @media (max-width: 500px) {
   .poster-grid {
     display: flex;
-    overflow-x: auto;  /* allow horizontal scroll */
+    overflow-x: auto;
     gap: 0.5rem;
     padding: 1rem 0;
   }
 
   .poster-box {
-    display: flex;          /* keep description and image side by side */
-    flex-direction: row;    /* row layout */
-    justify-content: space-between; /* push image to right */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;             /* two per screen approx */
-    min-height: 150px;      /* ensure minimum height */
+    width: 100%;
+    min-height: 150px;
     padding: 0.5rem;
     margin-right: 1rem;
-    background: #222;       /* same background as desktop */
+    background: #00000099 !important;
     border-radius: 0.75rem;
-    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
   }
 
   .poster-content {
     display: flex;
-    flex-direction: row;   /* keep description on left, image on right */
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -226,17 +257,81 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   .poster-description {
     color: #fff;
     font-size: 0.9rem;
-    flex: 1;               /* take remaining space */
+    flex: 1;
   }
 
   .poster-img {
     width: auto;
-    max-width: 120px;      /* smaller image on mobile */
-    height: 100%;          /* stretch to match box height if needed */
-    object-fit: contain;   /* keep aspect ratio */
+    max-width: 120px;
+    height: 100%;
+    object-fit: contain;
   }
 
   .poster-btn {
-    margin-top: 0.5rem;    /* below description */
+    margin-top: 0.5rem;
   }
+}
+
+/* ================================================ */
+/*               HERO FEATURE CARDS               */
+/* ================================================ */
+.VPHomeFeatures {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem !important;
+}
+
+.VPHomeFeatures > * {
+  flex: 1 1 220px;
+  max-width: 300px;
+  min-height: 200px;
+  background-color: rgba(35,130,220,0.35) !important;
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  color: #fff !important;
+  box-shadow: 0 0 15px rgba(0,255,150,0.2);
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Outer card hover (no scaling) */
+.VPHomeFeatures > *:hover {
+  background-color: rgba(35,180,228,0.55) !important;
+  box-shadow: 0 0 25px rgba(0, 247, 255, 0.4);
+}
+
+/* Green radial glow behind outer card */
+.VPHomeFeatures > *::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0, 229, 255, 0.15), transparent 70%);
+  transform: translateX(0) translateY(0);
+  transition: transform 0.5s ease;
+  pointer-events: none;
+}
+
+.VPHomeFeatures > *:hover::before {
+  transform: translateX(5px) translateY(5px);
+}
+
+/* Inner content scaling */
+.VPHomeFeatures > * > * {
+  transition: transform 0.3s ease;
+}
+
+.VPHomeFeatures > *:hover > * {
+  transform: scale(1.05);
 }
