@@ -22,7 +22,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/pGozlaQa#7Ffjmmhi6_quSZEy05OvyQ" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -35,7 +35,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/dCBFGIIC#AgwXaN5QaaR0KBnjG1vfOw" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -48,7 +48,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/8TQ3wKQa#IzZFjMQcHzo6m14G11hj6w" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -61,7 +61,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/5OAgzCwY#jO_PmsLLK55QnO5DibO9Kw" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -74,7 +74,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/lWpRWaxa#KXN66qwCUwkRNwPKC2batQ" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -87,7 +87,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/oOIXSb5K#dNly5zIUQsdxZ20OEQt3Sg" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -100,7 +100,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/wHRn3ara#0qEaqMDCw-8-lTYSboNemA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -113,7 +113,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/BX4SQZoZ#iFqNkXG0TJ9HmerJxnMMHg" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -126,7 +126,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/9CIB1CDS#f_7bHI1HJADwgwdbtxpK5Q" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -139,7 +139,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/BHJSkTqD#88m1XKUNbruhcCuicJnlfA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -152,7 +152,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/BeoAUT4C#m7WHl1KqCBX44dBwH20OBQ" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -165,7 +165,7 @@ hero:
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976
       <br>
-      <a href="#" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/VG4nVITJ#iPG9stK5wrv5UCchv-Z-Aw" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
