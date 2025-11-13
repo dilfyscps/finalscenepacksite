@@ -177,7 +177,6 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
 .poster-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* default for desktop */
   gap: 1rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -187,7 +186,6 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
 
 .poster-grid .poster-card {
   flex: 0 1 22%;           /* up to 4 per row on desktop */
-  min-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -199,7 +197,6 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   box-sizing: border-box;
   min-height: 350px;
   transition: all 0.2s ease;
-  margin: 0;
 }
 
 /* Poster Image */
@@ -255,7 +252,6 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   transition: all 0.2s ease;
 }
 
-/* Hover effect */
 .poster-grid .poster-info a.poster-btn:hover {
   filter: brightness(1.2);
   transform: translateY(-1px);
@@ -282,34 +278,38 @@ html[data-theme='light'] .VPHomeHero .actions .VPButton {
   animation: glowFlash 2s ease-out;
 }
 
-/* ===== Responsive Design (2 per row, auto-balance spacing) ===== */
+/* ===== Responsive Design ===== */
+
+/* Tablet and below (2 per row) */
 @media (max-width: 1200px) {
   .poster-grid .poster-card {
-    flex: 0 1 calc(50% - 0.5rem); /* 2 per row with gap accounted for */
-    min-width: 180px;
+    flex: 1 1 48%;   /* 2 per row */
+    min-width: 0;    /* allow shrinking */
   }
   .poster-grid {
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 }
 
+/* Small tablets / large phones */
 @media (max-width: 900px) {
   .poster-grid .poster-card {
-    flex: 0 1 calc(50% - 0.5rem); /* 2 per row */
-    min-width: 160px;
+    flex: 1 1 48%;   /* 2 per row */
+    min-width: 0;
   }
   .poster-grid {
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 }
 
+/* Mobile */
 @media (max-width: 480px) {
   .poster-grid .poster-card {
-    flex: 0 1 calc(50% - 0.5rem); /* 2 per row on mobile */
-    min-width: 140px;
+    flex: 1 1 48%;   /* 2 per row */
+    min-width: 0;    /* allows proper stacking */
     padding: 0.8rem; /* slightly smaller padding */
   }
   .poster-grid {
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 }
