@@ -14,6 +14,49 @@ hero:
       link: /dilfyscps
 ---
 
+<h3 style="
+  text-align:center;
+  color:#23b5e4;
+  font-weight:700;
+  text-shadow:
+    1px 1px 0 #1b3d66,
+    2px 2px 0 #0f233a;
+">
+  THERES ONLY A FEW INDEX'S. IF ONE DOESNT WORK I HAVENT MADE A SCENEPACK WITH THAT LETTER YET!
+</h3>
+
+
+
+<div style="display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1rem 0;">
+  <a href="/tvshows#a" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">A</a>
+  <a href="/tvshows#b" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">B</a>
+  <a href="/tvshows#c" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">C</a>
+  <a href="/tvshows#d" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">D</a>
+  <a href="/tvshows#e" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">E</a>
+  <a href="/tvshows#f" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">F</a>
+  <a href="/tvshows#g" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">G</a>
+  <a href="/tvshows#h" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">H</a>
+  <a href="/tvshows#i" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">I</a>
+  <a href="/tvshows#j" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">J</a>
+  <a href="/tvshows#k" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">K</a>
+  <a href="/tvshows#l" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">L</a>
+  <a href="/tvshows#m" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">M</a>
+  <a href="/tvshows#n" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">N</a>
+  <a href="/tvshows#o" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">O</a>
+  <a href="/tvshows#p" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">P</a>
+  <a href="/tvshows#q" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">Q</a>
+  <a href="/tvshows#r" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">R</a>
+  <a href="/tvshows#s" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">S</a>
+  <a href="/tvshows#t" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">T</a>
+  <a href="/tvshows#u" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">U</a>
+  <a href="/tvshows#v" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">V</a>
+  <a href="/tvshows#w" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">W</a>
+  <a href="/tvshows#x" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">X</a>
+  <a href="/tvshows#y" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">Y</a>
+  <a href="/tvshows#z" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">Z</a>
+</div>
+
+# B
 ## Boots
 
 <div class="poster-box">
@@ -27,6 +70,7 @@ hero:
   </div>
 </div>
 
+# F
 ## Fellow Travelers
 
 <div class="poster-box">
@@ -40,6 +84,7 @@ hero:
   </div>
 </div>
 
+# G
 ## Gen V S2
 
 <div class="poster-box">
@@ -53,6 +98,7 @@ hero:
   </div>
 </div>
 
+# H
 ## Hollywood
 
 <div class="poster-box">
@@ -66,6 +112,7 @@ hero:
   </div>
 </div>
 
+# L
 ## Looking
 
 <div class="poster-box">
@@ -79,6 +126,7 @@ hero:
   </div>
 </div>
 
+# O
 ## Olympo
 
 <div class="poster-box">
@@ -92,6 +140,7 @@ hero:
   </div>
 </div>
 
+# P
 ## Peacemaker
 
 <div class="poster-box">
@@ -105,6 +154,7 @@ hero:
   </div>
 </div>
 
+# R
 ## Reacher
 
 <div class="poster-box">
@@ -118,6 +168,7 @@ hero:
   </div>
 </div>
 
+# T
 ## The Ed Gein Story
 
 <div class="poster-box">
@@ -144,6 +195,8 @@ hero:
   </div>
 </div>
 
+
+# W 
 ## We Own This City
 
 <div class="poster-box">

@@ -133,7 +133,7 @@ html, body, #app, .VPPage, .VPContent {
 
 /* Hero feature buttons / semi-transparent background */
 .VPHomeHero .actions .VPButton {
-  background-color: rgba(35, 130, 220, 0.4);
+  background-color: #2382dc66;
   color: #fff !important;
   border: none !important;
   border-radius: 0.5rem;
@@ -334,4 +334,9 @@ html, body, #app, .VPPage, .VPContent {
 
 .VPHomeFeatures > *:hover > * {
   transform: scale(1.05);
+}
+
+
+.hidden-title {
+  display: none;
 }
