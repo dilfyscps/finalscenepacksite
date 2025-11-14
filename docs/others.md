@@ -14,6 +14,19 @@ hero:
       link: /cvmscps
 ---
 
+## BrownBoyFitt
+
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/brownboyfitt.png" alt="BrownBoyFitt" class="poster-img" />
+    <div class="poster-description">
+      Contains: X, OF & IG (Vids & Photos)
+      <br>
+      <a href="https://mega.nz/folder/1OBRgK6S#PaJEUazBfRZ14Tqmb4L1lQ" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
 
 ## Chris Stoner
 

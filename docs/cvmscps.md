@@ -24,3 +24,7 @@ features:
     details:  Scenepacks of OTHERS. Ex "Random Men"
     link: /others
 ---
+
+::: tip SCENEPACK UPDATES
+Added BrownBoyFitt : [Go to header](/others#brownboyfitt)
+:::
