@@ -22,7 +22,7 @@ hero:
     <div class="poster-description">
       Contains: X, OF & IG (Vids & Photos)
       <br>
-      <a href="https://mega.nz/folder/1OBRgK6S#PaJEUazBfRZ14Tqmb4L1lQ" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/0LgBgQiZ#z40X2rIeDB4io-vAZ2-15A" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
