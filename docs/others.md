@@ -27,7 +27,6 @@ hero:
   </div>
 </div>
 
-
 ## Chris Stoner
 
 <div class="poster-box">

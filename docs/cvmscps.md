@@ -3,7 +3,7 @@ layout: home
 hero:
   name: CVMSCPS
   text: 
-  tagline: ᴄᴜʀʀᴇɴᴛʟʏ ᴜᴘᴅᴀᴛɪɴɢ ᴛʜᴇ sᴄᴇɴᴇᴘᴀᴄᴋ ᴘᴀɢᴇs.
+  tagline: scenepack updates below page buttons
   image: 
   actions:
     - theme: alt
@@ -26,5 +26,5 @@ features:
 ---
 
 ::: tip SCENEPACK UPDATES
-Added BrownBoyFitt : [Go to header](/others#brownboyfitt)
+Added BrownBoyFitt: [Go to page](/others#brownboyfitt)
 :::
