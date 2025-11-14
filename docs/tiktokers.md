@@ -248,7 +248,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/ZPQExaKI#DsNmBqxUIHcROttCWcjZKA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -260,7 +260,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/NTxDwa5D#6AHG3SVXhLNAWndl8SHBaA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -272,7 +272,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/oaY0xJYB#3_Pa0Aegq2ufTfItBkYAjA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -285,7 +285,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/lTpCSIDZ#7DRMjF34lhlZWWAQSBcLRw" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -297,7 +297,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/4LAG1bCQ#2vk6quh2fAPBX8TigF8h6Q" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -310,7 +310,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/VDx21AAT#I1ZIMkg1V-z7UwYerv3OlA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -323,7 +323,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/xDwHAQRY#9OwYepXy6xHksTL9bqzIqQ" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -335,7 +335,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/ZKI03L5Y#1GP5JEqWQ3m_xG1w33c5TQ" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -348,7 +348,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/sapXQI5T#HoHxS4Eo5fGEBlhR5L1fuw" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -361,7 +361,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/VbpE2C7Q#PlKKDOgjJ8MwB17dxoKr7w" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -373,7 +373,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/wfpz2CBC#bF9Rka7GGr1hkF-7uf6fTA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -385,7 +385,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/FfRBUCyC#jaP4eOwyqAK_wWdMVbd9yA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -397,7 +397,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/YPgUQL5Q#eP0X_4ufXIXiX-M9uKs7eA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -409,7 +409,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/oPoXUKYA#4VpS_TIn6M2JyTcYKXn4zg" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
@@ -421,7 +421,7 @@ hero:
     <div class="poster-description">
       Contains:
       <br>
-      <a href="" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/pLhDQT6a#h-hcvCqjVEipx45DZ20qbw" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
