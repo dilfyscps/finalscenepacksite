@@ -354,7 +354,7 @@ hero:
 </div>
 
 # J
-## Jacobday
+## Jacob Day
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/jacobday.png" alt="Jacobday" class="poster-img" />
@@ -366,7 +366,7 @@ hero:
   </div>
 </div>
 
-## Jakecookee
+## Jake Cookee
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/jakecookee.png" alt="Jakecookee" class="poster-img" />
@@ -378,7 +378,7 @@ hero:
   </div>
 </div>
 
-## Jakerichard
+## Jake Richard
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/jakerichard.png" alt="Jakerichard" class="poster-img" />
@@ -414,7 +414,7 @@ hero:
   </div>
 </div>
 
-## Joelerdmann
+## Joel Erdmann
 <div class="poster-box">
   <div class="poster-content">
     <img src="/posters/joelerdmann.png" alt="Joelerdmann" class="poster-img" />

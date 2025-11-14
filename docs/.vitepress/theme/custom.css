@@ -35,7 +35,7 @@ html, body, #app, .VPPage, .VPContent {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #132549, #000000, #125293);
+  background: linear-gradient(135deg, #132549, #000000, #092e52);
   background-size: 400% 400%;
   background-attachment: fixed; /* keep gradient seamless */
   animation: gradientBG 20s ease infinite;
