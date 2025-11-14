@@ -4,7 +4,7 @@ layout: home
 customPageClass: "home-pages"
 hero:
   name: OTHER SCENEPACKS
-  tagline: Last updated 11/12/25
+  tagline: Last updated 11/14/25
   actions:
     - theme: brand
       text: homepage
