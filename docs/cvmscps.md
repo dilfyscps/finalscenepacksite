@@ -24,7 +24,6 @@ features:
     details:  Scenepacks of OTHERS. Ex "Random Men"
     link: /others
 ---
-<div id="holiday-header">🎄 Happy Holidays — Enjoy the Packs 🎁</div>
 
 ::: tip SCENEPACK UPDATES
 Added BrownBoyFitt: [Go to page](/others#brownboyfitt)
