@@ -175,102 +175,220 @@ html, body, #app, .VPPage, .VPContent {
 /* ================================================ */
 /*                 POSTER GRID & CARDS            */
 /* ================================================ */
-.poster-box {
-  background: #00000099 !important;
-  padding: 1rem;
-  border-radius: 0.75rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 0 100px rgba(0,0,0,0.5);
+
+.index-title {
+  text-align: center;
+  color: #23b4e4;
+  font-weight: 800;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 6px rgba(35,180,228,0.6), 0 0 14px rgba(35,180,228,0.4);
+}
+
+.index-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  justify-content: center;
+  margin: 1.2rem 0 2rem;
+}
+
+.index-nav a {
+  padding: .35rem .65rem;
+  font-weight: 700;
+  border-radius: .4rem;
+  transition: .25s ease;
+  color: #fff;
+  opacity: .35;
+  text-decoration: none !important;
+}
+
+.index-nav a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.index-nav a.active {
+  opacity: 1;
+  background: #23b4e4;
+  color: #000;
+  box-shadow: 0 0 12px rgba(35,180,228,0.5);
+}
+
+.poster-new-badge {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  background: #ff3b3b;
+  color: #fff;
+  font-weight: 700;
+  font-size: .7rem;
+  padding: 3px 7px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(255,60,60,0.45);
+  z-index: 20;
 }
 
 .poster-content {
+  position: relative;
+}
+
+.poster-box {
+  position: relative;
+  overflow: visible;
+  background: rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 1.2rem 1.4rem;
+  border-radius: 1.2rem;
+  margin-bottom: 2.2rem;
+  box-shadow: inset 0 0 25px rgba(255,255,255,0.02), 0 10px 35px rgba(0,0,0,0.55);
+  transition: .25s ease;
+}
+
+.poster-box:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255,255,255,0.14);
+  box-shadow: inset 0 0 25px rgba(255,255,255,0.03), 0 14px 40px rgba(0,0,0,0.75);
+}
+
+/* PAYHIP LIGHTS */
+.poster-light-wrapper {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  pointer-events: none;
+  z-index: 50;
+  animation: sway 4s ease-in-out infinite alternate;
+}
+
+@keyframes sway {
+  from { transform: rotate(1deg); }
+  to   { transform: rotate(-1deg); }
+}
+
+.poster-wire {
+  position: absolute;
+  top: 12px;
+  height: 3px;
+  width: 100%;
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(50,35,20,0.9) 0px,
+    rgba(50,35,20,0.9) 6px,
+    rgba(70,50,30,0.9) 6px,
+    rgba(70,50,30,0.9) 12px
+  );
+  filter: blur(.3px);
+}
+
+.poster-bulb {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  top: 26px;
+  animation: glow 1.6s infinite alternate;
+}
+
+.poster-base {
+  position: absolute;
+  width: 12px;
+  height: 6px;
+  background: #2b2b2b;
+  border-radius: 2px;
+  top: 18px;
+}
+
+@keyframes glow {
+  from { transform: scale(.9); opacity: .75; }
+  to   { transform: scale(1.3); opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .poster-bulb { width: 13px; height: 13px; top: 22px; }
+  .poster-base { width: 10px; height: 5px; top: 16px; }
+  .poster-wire { top: 10px; }
+}
+
+.poster-content {
+  padding: .3rem .5rem;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 1rem;
+  gap: 1.4rem;
+  background: rgba(255,255,255,0.02);
+  border-radius: .9rem;
+  box-shadow: inset 0 0 25px rgba(255,255,255,0.03);
 }
 
 .poster-img {
-  width: 200px; 
-  height: auto;
-  border-radius: 0.5rem;
+  width: 190px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: .75rem;
+  box-shadow: 0 0 12px rgba(0,0,0,0.45), 0 0 18px rgba(0,0,0,0.28);
 }
 
 .poster-description {
-  color: #fff;
-  font-size: 1rem;
+  color: #ffffff;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  opacity: 0.95;
+  flex: 1;
+}
+
+.poster-description a {
+  text-decoration: none !important;
 }
 
 .poster-btn {
-  margin-top: 0.5rem;
-  padding: 0.5rem 0.8rem;
-  background: #00a0fc5e;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 0.25rem;
+  margin-top: .6rem;
+  padding: .55rem .9rem;
+  background: #23b4e4;
+  color: #000 !important;
+  border-radius: 0.5rem;
+  font-weight: 600;
   display: inline-block;
+  transition: .25s ease;
+  text-decoration: none !important;
 }
 
 .poster-btn:hover {
-  background: #0080c0;
+  background: #39c9fa;
+  transform: translateY(-2px);
+  color: #000 !important;
 }
 
-/* Desktop adjustments */
-.poster-img {
-  width: 150px;
-  height: auto;
-  border-radius: 0.5rem;
-}
-
-/* Mobile Only */
 @media (max-width: 500px) {
-  .poster-grid {
-    display: flex;
-    overflow-x: auto;
-    gap: 0.5rem;
-    padding: 1rem 0;
-  }
-
   .poster-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    min-height: 150px;
-    padding: 0.5rem;
-    margin-right: 1rem;
-    background: #00000099 !important;
-    border-radius: 0.75rem;
-    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+    padding: .9rem;
+    border-radius: 1rem;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.45);
   }
 
   .poster-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
     gap: 1rem;
   }
 
-  .poster-description {
-    color: #fff;
-    font-size: 0.9rem;
-    flex: 1;
+  .poster-img {
+    width: 130px;
+    height: 180px;
   }
 
-  .poster-img {
-    width: auto;
-    max-width: 120px;
-    height: 100%;
-    object-fit: contain;
+  .poster-description {
+    font-size: .95rem;
   }
 
   .poster-btn {
-    margin-top: 0.5rem;
+    font-size: .85rem;
+    padding: .45rem .75rem;
   }
 }
+
 
 /* ================================================ */
 /*               HERO FEATURE CARDS               */
@@ -340,3 +458,282 @@ html, body, #app, .VPPage, .VPContent {
 .hidden-title {
   display: none;
 }
+
+/* ============================================================
+   VEELS-STYLE POSTER CARDS
+   ============================================================ */
+
+.poster-card {
+  background: rgba(0,0,0,0.45);
+  border-radius: 26px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.poster-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255,255,255,0.14);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+}
+
+/* IMAGE */
+.poster-card-img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+/* CONTENT AREA */
+.poster-card-body {
+  padding: 1.6rem;
+}
+
+.poster-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.25rem 0 1rem 0; /* tight top spacing */
+  color: #fff;
+}
+
+/* TAG */
+.poster-tag {
+  display: inline-block;
+  background: rgba(255,255,255,0.08);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: #fff;
+
+  /* FIX THIS */
+  margin-bottom: 0.25rem; /* was 0.8rem — too big */
+}
+
+/* DESCRIPTION */
+.poster-desc {
+  font-size: 15px;
+  color: #e8e8e8;
+  margin-bottom: 1.4rem;
+}
+
+/* BUTTON */
+.poster-card-btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  color: #fff !important;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background .25s ease;
+}
+
+.poster-card-btn:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.poster-new-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff3b3b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  z-index: 20;
+  box-shadow: 0 0 10px rgba(255,60,60,0.5);
+  letter-spacing: .5px;
+}
+
+/* ensures card is positioned for the badge */
+.poster-card {
+  position: relative;
+}
+
+
+/* ============================================================
+   RESPONSIVE POSTER GRID
+   ============================================================ */
+
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+
+/* ===== GLOBAL ===== */
+body {
+  background: #0c0c0c;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ======= SNOW OVERLAY (non-emoji version) ======= */
+#snow-overlay {
+  pointer-events: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 998;
+  overflow: hidden;
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+  opacity: .85;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% { transform: translateY(-10px); opacity: .9; }
+  100% { transform: translateY(110vh); opacity: .2; }
+}
+
+/* ======= CHRISTMAS LIGHTS (DESKTOP) ======= */
+#light-strip {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding: 12px 0;
+  background: transparent;
+  z-index: 999;
+}
+
+.light {
+  width: 18px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ff2e2e;
+  box-shadow: 0 0 8px #ff2e2e;
+  animation: glow 1.6s infinite alternate;
+}
+
+.light:nth-child(2n) {
+  background: #2eff4f;
+  box-shadow: 0 0 8px #2eff4f;
+}
+
+.light:nth-child(3n) {
+  background: #2ecbff;
+  box-shadow: 0 0 8px #2ecbff;
+}
+
+@keyframes glow {
+  from { opacity: .6; transform: scale(.95); }
+  to { opacity: 1; transform: scale(1.1); }
+}
+
+/* ===== MOBILE LIGHTS ===== */
+@media (max-width: 600px) {
+  #light-strip {
+    gap: 22px;          /* stretch more */
+    padding: 18px 0;    /* spacing */
+  }
+  .light {
+    transform: scale(1.2);
+  }
+}
+
+/* ===== CHRISTMAS TICKER (for PNGs) ===== */
+#christmas-ticker {
+  width: 100%;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 8px 0;
+}
+
+#christmas-ticker .track {
+  display: flex;
+  gap: 35px;
+  animation: ticker 20s linear infinite;
+}
+
+#christmas-ticker img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+@keyframes ticker {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+
+/* ===== TEXT GLOW EFFECT ===== */
+.glow-text span {
+  animation: glowtext 1.6s infinite alternate;
+}
+
+.glow-text span:nth-child(even) {
+  animation-delay: .3s;
+}
+
+@keyframes glowtext {
+  0% { text-shadow: 0 0 4px red; }
+  100% { text-shadow: 0 0 12px rgb(255, 120, 120); }
+}
+
+/* ===== CHRISTMAS DIVIDER ===== */
+.xmas-divider {
+  width: 100%;
+  height: 4px;
+  background: repeating-linear-gradient(
+      90deg,
+      #ff0000 0 20px,
+      #ffffff 20px 40px
+  );
+  margin: 30px 0;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.4);
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .xmas-divider {
+    height: 3px;
+    margin: 24px 0;
+    background: repeating-linear-gradient(
+        90deg,
+        #ff3b3b 0 16px,
+        #ffffff 16px 32px
+    );
+  }
+}
+
+.hidden-index-heading {
+  position: absolute !important;
+  left: -99999px !important;
+  top: auto !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+

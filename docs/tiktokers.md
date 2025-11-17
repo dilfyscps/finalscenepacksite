@@ -13,35 +13,46 @@ hero:
       text: cvmscps
       link: /cvmscps
 ---
+<div class="xmas-divider"></div>
+
+<h3 style="
+  text-align:center;
+  color:#23b5e4;
+  font-weight:700;
+  text-shadow:1px 1px 0 #1b3d66, 2px 2px 0 #0f233a;
+">
+  INDEX
+</h3>
 
 <div style="display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1rem 0;">
-  <a href="/tiktokers#a" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">A</a>
-  <a href="/tiktokers#b" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">B</a>
-  <a href="/tiktokers#c" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">C</a>
-  <a href="/tiktokers#d" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">D</a>
-  <a href="/tiktokers#e" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">E</a>
-  <a href="/tiktokers#f" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">F</a>
-  <a href="/tiktokers#g" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">G</a>
-  <a href="/tiktokers#h" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">H</a>
-  <a href="/tiktokers#i" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">I</a>
-  <a href="/tiktokers#j" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">J</a>
-  <a href="/tiktokers#k" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">K</a>
-  <a href="/tiktokers#l" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">L</a>
-  <a href="/tiktokers#m" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">M</a>
-  <a href="/tiktokers#n" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">N</a>
-  <a href="/tiktokers#o" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">O</a>
-  <a href="/tiktokers#p" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">P</a>
-  <a href="/tiktokers#q" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">Q</a>
-  <a href="/tiktokers#r" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">R</a>
-  <a href="/tiktokers#s" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">S</a>
-  <a href="/tiktokers#t" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">T</a>
-  <a href="/tiktokers#u" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">U</a>
-  <a href="/tiktokers#v" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">V</a>
-  <a href="/tiktokers#w" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">W</a>
-  <a href="/tiktokers#x" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">X</a>
-  <a href="/tiktokers#y" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">Y</a>
-  <a href="/tiktokers#z" style="text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">Z</a>
+  <a href="/tiktokers#a" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">A</a>
+  <a href="/tiktokers#b" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">B</a>
+  <a href="/tiktokers#c" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">C</a>
+  <a href="/tiktokers#d" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">D</a>
+  <a href="/tiktokers#e" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">E</a>
+  <a href="/tiktokers#f" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">F</a>
+  <a href="/tiktokers#g" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">G</a>
+  <a href="/tiktokers#h" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">H</a>
+  <a href="/tiktokers#i" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">I</a>
+  <a href="/tiktokers#j" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">J</a>
+  <a href="/tiktokers#k" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">K</a>
+  <a href="/tiktokers#l" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">L</a>
+  <a href="/tiktokers#m" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">M</a>
+  <a href="/tiktokers#n" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">N</a>
+  <a href="/tiktokers#o" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">O</a>
+  <a href="/tiktokers#p" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">P</a>
+  <a href="/tiktokers#q" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Q</a>
+  <a href="/tiktokers#r" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">R</a>
+  <a href="/tiktokers#s" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">S</a>
+  <a href="/tiktokers#t" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">T</a>
+  <a href="/tiktokers#u" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">U</a>
+  <a href="/tiktokers#v" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">V</a>
+  <a href="/tiktokers#w" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">W</a>
+  <a href="/tiktokers#x" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">X</a>
+  <a href="/tiktokers#y" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Y</a>
+  <a href="/tiktokers#z" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Z</a>
 </div>
+
 
 
 ## 5ddie
