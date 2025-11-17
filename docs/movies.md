@@ -28,86 +28,34 @@ hero:
 </h3>
 
 <div style="display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1rem 0;">
-
-  <!-- A -->
   <a href="/movies#a" style="opacity:1; text-decoration:none; font-weight:bold; padding:0.25rem 0.5rem;">A</a>
-
-  <!-- B -->
   <a href="/movies#b" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">B</a>
-
-  <!-- C -->
   <a href="/movies#c" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">C</a>
-
-  <!-- D -->
   <a href="/movies#d" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">D</a>
-
-  <!-- E -->
   <a href="/movies#e" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">E</a>
-
-  <!-- F -->
   <a href="/movies#f" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">F</a>
-
-  <!-- G -->
   <a href="/movies#g" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">G</a>
-
-  <!-- H -->
   <a href="/movies#h" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">H</a>
-
-  <!-- I -->
   <a href="/movies#i" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">I</a>
-
-  <!-- J -->
   <a href="/movies#j" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">J</a>
-
-  <!-- K -->
   <a href="/movies#k" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">K</a>
-
-  <!-- L -->
   <a href="/movies#l" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">L</a>
-
-  <!-- M -->
   <a href="/movies#m" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">M</a>
-
-  <!-- N -->
   <a href="/movies#n" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">N</a>
-
-  <!-- O -->
   <a href="/movies#o" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">O</a>
-
-  <!-- P -->
   <a href="/movies#p" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">P</a>
-
-  <!-- Q -->
   <a href="/movies#q" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Q</a>
-
-  <!-- R -->
   <a href="/movies#r" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">R</a>
-
-  <!-- S -->
   <a href="/movies#s" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">S</a>
-
-  <!-- T -->
   <a href="/movies#t" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">T</a>
-
-  <!-- U -->
   <a href="/movies#u" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">U</a>
-
-  <!-- V -->
   <a href="/movies#v" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">V</a>
-
-  <!-- W -->
   <a href="/movies#w" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">W</a>
-
-  <!-- X -->
   <a href="/movies#x" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">X</a>
-
-  <!-- Y -->
   <a href="/movies#y" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Y</a>
-
-  <!-- Z -->
   <a href="/movies#z" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Z</a>
-
 </div>
+
 
 # A
 
