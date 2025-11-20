@@ -37,19 +37,17 @@ features:
 
 <div class="poster-grid">
 
-  <!-- Boots -->
   <div class="poster-card">
   <div class="poster-new-badge">NEW</div>
-    <img src="/posters/boots.png" alt="Boots" class="poster-card-img">
+    <img src="/posters/thehistoryofsound.png" alt="The History of Sound" class="poster-card-img">
     <div class="poster-card-body">
-      <span class="poster-tag">TV SHOW</span>
-      <h3 class="poster-card-title">Boots</h3>
+      <span class="poster-tag">MOVIE</span>
+      <h3 class="poster-card-title">The History of Sound</h3>
       <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
-      <a href="https://mega.nz/folder/pGozlaQa#7Ffjmmhi6_quSZEy05OvyQ" target="_blank" class="poster-card-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/hChD2YaA#n9KhJHjIVj8d0GAZdB0xuw" target="_blank" class="poster-card-btn">Open Mega</a>
     </div>
   </div>
 
-  <!-- Olympo -->
   <div class="poster-card">
   <div class="poster-new-badge">NEW</div>
     <img src="/posters/Olympo.png" alt="Olympo" class="poster-card-img">
