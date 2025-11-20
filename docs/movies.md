@@ -346,6 +346,18 @@ hero:
   </div>
 </div>
 
+## The History of Sound
+<div class="poster-box">
+<div class="poster-new-badge">NEW</div>
+  <div class="poster-content">
+    <img src="/posters/thehistoryofsound.png" alt="The History of Sound" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976<br>
+      <a href="https://mega.nz/folder/hChD2YaA#n9KhJHjIVj8d0GAZdB0xuw" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
+
 ## The Sasquatch Gang
 <div class="poster-box">
   <div class="poster-content">

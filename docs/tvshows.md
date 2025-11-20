@@ -50,7 +50,6 @@ hero:
 ## Boots
 <div class="poster-box">
   <div class="poster-content">
-    <div class="poster-new-badge">NEW</div>
     <img src="/posters/boots.png" alt="Boots" class="poster-img" />
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976<br>
