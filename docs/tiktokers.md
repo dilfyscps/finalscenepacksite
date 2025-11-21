@@ -13,48 +13,40 @@ hero:
       text: cvmscps
       link: /cvmscps
 ---
-<div class="xmas-divider"></div>
-
-<h3 style="
-  text-align:center;
-  color:#23b5e4;
-  font-weight:700;
-  text-shadow:1px 1px 0 #1b3d66, 2px 2px 0 #0f233a;
-">
-  INDEX
-</h3>
-
-<div style="display:flex; flex-wrap:wrap; gap:0.5rem; justify-content:center; margin:1rem 0;">
-  <a href="/tiktokers#a" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">A</a>
-  <a href="/tiktokers#b" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">B</a>
-  <a href="/tiktokers#c" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">C</a>
-  <a href="/tiktokers#d" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">D</a>
-  <a href="/tiktokers#e" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">E</a>
-  <a href="/tiktokers#f" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">F</a>
-  <a href="/tiktokers#g" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">G</a>
-  <a href="/tiktokers#h" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">H</a>
-  <a href="/tiktokers#i" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">I</a>
-  <a href="/tiktokers#j" style="opacity:1; font-weight:bold; padding:0.25rem 0.5rem;">J</a>
-  <a href="/tiktokers#k" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">K</a>
-  <a href="/tiktokers#l" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">L</a>
-  <a href="/tiktokers#m" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">M</a>
-  <a href="/tiktokers#n" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">N</a>
-  <a href="/tiktokers#o" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">O</a>
-  <a href="/tiktokers#p" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">P</a>
-  <a href="/tiktokers#q" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Q</a>
-  <a href="/tiktokers#r" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">R</a>
-  <a href="/tiktokers#s" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">S</a>
-  <a href="/tiktokers#t" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">T</a>
-  <a href="/tiktokers#u" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">U</a>
-  <a href="/tiktokers#v" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">V</a>
-  <a href="/tiktokers#w" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">W</a>
-  <a href="/tiktokers#x" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">X</a>
-  <a href="/tiktokers#y" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Y</a>
-  <a href="/tiktokers#z" style="opacity:0.4; font-weight:bold; padding:0.25rem 0.5rem;">Z</a>
+<h3 class="index-title">INDEX</h3>
+<div class="index-nav">
+<a href="/tiktokers##" class="active">#</a>
+  <a href="/tiktokers#a" class="active">A</a>
+  <a href="/tiktokers#b" class="active">B</a>
+  <a href="/tiktokers#c" class="active">C</a>
+  <a href="/tiktokers#d" class="active">D</a>
+  <a href="/tiktokers#e" class="active">E</a>
+  <a href="/tiktokers#f" class="">F</a>
+  <a href="/tiktokers#g" class="active">G</a>
+  <a href="/tiktokers#h" class="active">H</a>
+  <a href="/tiktokers#i" class="active">I</a>
+  <a href="/tiktokers#j" class="active">J</a>
+  <a href="/tiktokers#k" class="">K</a>
+  <a href="/tiktokers#l" class="">L</a>
+  <a href="/tiktokers#m" class="">M</a>
+  <a href="/tiktokers#n" class="">N</a>
+  <a href="/tiktokers#o" class="">O</a>
+  <a href="/tiktokers#p" class="">P</a>
+  <a href="/tiktokers#q" class="">Q</a>
+  <a href="/tiktokers#r" class="">R</a>
+  <a href="/tiktokers#s" class="">S</a>
+  <a href="/tiktokers#t" class="">T</a>
+  <a href="/tiktokers#u" class="">U</a>
+  <a href="/tiktokers#v" class="">V</a>
+  <a href="/tiktokers#w" class="">W</a>
+  <a href="/tiktokers#x" class="">X</a>
+  <a href="/tiktokers#y" class="">Y</a>
+  <a href="/tiktokers#z" class="">Z</a>
 </div>
 
+<div class="xmas-divider"></div>
 
-
+# <h1 id="#" class="hidden-index-heading">#</h1>
 ## 5ddie
 <div class="poster-box">
   <div class="poster-content">
@@ -67,8 +59,7 @@ hero:
   </div>
 </div>
 
-# A
-
+# <h1 id="a" class="hidden-index-heading">A</h1>
 ## Abel Solervicens
 <div class="poster-box">
   <div class="poster-content">
@@ -177,7 +168,7 @@ hero:
   </div>
 </div>
 
-# B
+# <h1 id="b" class="hidden-index-heading">B</h1>
 ## Bach Buquen
 <div class="poster-box">
   <div class="poster-content">
@@ -202,7 +193,7 @@ hero:
   </div>
 </div>
 
-# C
+# <h1 id="c" class="hidden-index-heading">C</h1>
 ## Cashmoneyrk
 <div class="poster-box">
   <div class="poster-content">
@@ -251,7 +242,7 @@ hero:
   </div>
 </div>
 
-# D
+# <h1 id="d" class="hidden-index-heading">D</h1>
 ## Darrell Jones
 <div class="poster-box">
   <div class="poster-content">
@@ -288,7 +279,7 @@ hero:
   </div>
 </div>
 
-# E
+# <h1 id="e" class="hidden-index-heading">E</h1>
 ## Ethan Durant
 <div class="poster-box">
   <div class="poster-content">
@@ -313,7 +304,7 @@ hero:
   </div>
 </div>
 
-# G
+# <h1 id="g" class="hidden-index-heading">G</h1>
 ## German.v1.0
 <div class="poster-box">
   <div class="poster-content">
@@ -326,7 +317,7 @@ hero:
   </div>
 </div>
 
-# H
+# <h1 id="h" class="hidden-index-heading">H</h1>
 ## Hiphophendrix
 <div class="poster-box">
   <div class="poster-content">
@@ -351,7 +342,7 @@ hero:
   </div>
 </div>
 
-# I
+# <h1 id="i" class="hidden-index-heading">I</h1>
 ## Itszabau
 <div class="poster-box">
   <div class="poster-content">
@@ -364,7 +355,7 @@ hero:
   </div>
 </div>
 
-# J
+# <h1 id="j" class="hidden-index-heading">J</h1>
 ## Jacob Day
 <div class="poster-box">
   <div class="poster-content">

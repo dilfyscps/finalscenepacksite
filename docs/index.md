@@ -13,12 +13,12 @@ hero:
 features:
   - icon: 🎅
     title: DILFYSCPS
-    details: All Scenepack links — now wrapped like presents.
+    details: All Scenepack links - now wrapped like presents.
     link: /dilfyscps
 
   - icon: 🎄
     title: CVMSCPS
-    details: Still cooking… Santa is working on it!
+    details: All Scenepack links - now covered in snow!
     link: /cvmscps
 ---
 <div id="christmas-lights"></div>
@@ -44,7 +44,7 @@ features:
       <span class="poster-tag">MOVIE</span>
       <h3 class="poster-card-title">The History of Sound</h3>
       <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
-      <a href="https://mega.nz/folder/hChD2YaA#n9KhJHjIVj8d0GAZdB0xuw" target="_blank" class="poster-card-btn">Open Mega</a>
+      <a href="/movies#the-history-of-sound" target="_blank" class="poster-card-btn">Go to page</a>
     </div>
   </div>
 
@@ -55,7 +55,18 @@ features:
       <span class="poster-tag">TV SHOW</span>
       <h3 class="poster-card-title">Olympo</h3>
       <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
-      <a href="https://mega.nz/folder/oOIXSb5K#dNly5zIUQsdxZ20OEQt3Sg" target="_blank" class="poster-card-btn">Open Mega</a>
+      <a href="/tvshows#olympo" target="_blank" class="poster-card-btn">Go to page</a>
+    </div>
+  </div>
+
+  <div class="poster-card">
+  <div class="poster-new-badge">NEW</div>
+    <img src="/posters/chrisdamned.png" alt="Chris Damned" class="poster-card-img">
+    <div class="poster-card-body">
+      <span class="poster-tag">PORN CREATORS</span>
+      <h3 class="poster-card-title">Chris Damned</h3>
+      <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
+      <a href="/porn#chris-damned" target="_blank" class="poster-card-btn">Go to page</a>
     </div>
   </div>
 

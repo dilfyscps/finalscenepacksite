@@ -25,6 +25,6 @@ features:
     link: /others
 ---
 
-::: tip SCENEPACK UPDATES
-Added BrownBoyFitt: [Go to page](/others#brownboyfitt)
+::: warning UPDATES
+All scenepacks have been uploaded & their links updated. Contact cvmscps on instagram if you have any problems!
 :::

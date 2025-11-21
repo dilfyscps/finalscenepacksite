@@ -13,10 +13,39 @@ hero:
       text: cvmscps
       link: /cvmscps
 ---
+<h3 class="index-title">INDEX</h3>
+<div class="index-nav">
+  <a href="/others#a" class="active">A</a>
+  <a href="/others#b" class="active">B</a>
+  <a href="/others#c" class="active">C</a>
+  <a href="/others#d" class="">D</a>
+  <a href="/others#e" class="">E</a>
+  <a href="/others#f" class="">F</a>
+  <a href="/others#g" class="active">G</a>
+  <a href="/others#h" class="">H</a>
+  <a href="/others#i" class="active">I</a>
+  <a href="/others#j" class="active">J</a>
+  <a href="/others#k" class="">K</a>
+  <a href="/others#l" class="">L</a>
+  <a href="/others#m" class="active">M</a>
+  <a href="/others#n" class="">N</a>
+  <a href="/others#o" class="">O</a>
+  <a href="/others#p" class="active">P</a>
+  <a href="/others#q" class="">Q</a>
+  <a href="/others#r" class="">R</a>
+  <a href="/others#s" class="">S</a>
+  <a href="/others#t" class="">T</a>
+  <a href="/others#u" class="">U</a>
+  <a href="/others#v" class="">V</a>
+  <a href="/others#w" class="">W</a>
+  <a href="/others#x" class="">X</a>
+  <a href="/others#y" class="">Y</a>
+  <a href="/others#z" class="">Z</a>
+</div>
+
 <div class="xmas-divider"></div>
 
-# A
-
+# <h1 id="a" class="hidden-index-heading">A</h1>
 ## Alpha God Adonis
 <div class="poster-box">
   <div class="poster-content">
@@ -28,9 +57,7 @@ hero:
   </div>
 </div>
 
-
-# B
-
+# <h1 id="b" class="hidden-index-heading">B</h1>
 ## BrownBoyFitt
 <div class="poster-box">
   <div class="poster-content">
@@ -43,8 +70,7 @@ hero:
 </div>
 
 
-# C
-
+# <h1 id="c" class="hidden-index-heading">C</h1>
 ## Cj Delco
 <div class="poster-box">
   <div class="poster-content">
@@ -68,8 +94,7 @@ hero:
 </div>
 
 
-# G
-
+# <h1 id="g" class="hidden-index-heading">G</h1>
 ## Gabriel Coimbra
 <div class="poster-box">
   <div class="poster-content">
@@ -82,8 +107,7 @@ hero:
 </div>
 
 
-# I
-
+# <h1 id="i" class="hidden-index-heading">I</h1>
 ## ImJustinMac
 <div class="poster-box">
   <div class="poster-content">
@@ -107,8 +131,7 @@ hero:
 </div>
 
 
-# J
-
+# <h1 id="j" class="hidden-index-heading">J</h1>
 ## Josh Loz
 <div class="poster-box">
   <div class="poster-content">
@@ -121,8 +144,7 @@ hero:
 </div>
 
 
-# M
-
+# <h1 id="m" class="hidden-index-heading">M</h1>
 ## Mauro X Andress
 <div class="poster-box">
   <div class="poster-content">
@@ -146,8 +168,7 @@ hero:
 </div>
 
 
-# P
-
+# <h1 id="p" class="hidden-index-heading">P</h1>
 ## Popeyoso
 <div class="poster-box">
   <div class="poster-content">
