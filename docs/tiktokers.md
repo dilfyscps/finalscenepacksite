@@ -237,7 +237,7 @@ hero:
     <div class="poster-description">
       Contains: Topazed + Original Clips  
       <br>
-      <a href="https://mega.nz/folder/FOQkkAjR#ZnZmoKewyByjWFS5ohlwkw" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/JHwhSCyL#L7o0KuYJVniw0mZqWj-hgw" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
