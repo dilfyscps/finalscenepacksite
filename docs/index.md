@@ -44,7 +44,7 @@ features:
       <span class="poster-tag">TV SHOWS</span>
       <h3 class="poster-card-title">I Love LA</h3>
       <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
-      <a href="/porn#i-love-la" target="_blank" class="poster-card-btn">Go to page</a>
+      <a href="/tvshows#i-love-la" target="_blank" class="poster-card-btn">Go to page</a>
     </div>
   </div>
 
