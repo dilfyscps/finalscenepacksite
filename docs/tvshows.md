@@ -100,6 +100,17 @@ hero:
   </div>
 </div>
 
+# <h1 id="i" class="hidden-index-heading">I</h1>
+## I Love LA
+<div class="poster-box">
+  <div class="poster-content">
+    <img src="/posters/i love la.png" alt="I Love La" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976<br>
+      <a href="https://mega.nz/folder/FG4ijZbb#3-HY4j1flA-iKUJg-ii3Pg" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
 
 # <h1 id="l" class="hidden-index-heading">L</h1>
 

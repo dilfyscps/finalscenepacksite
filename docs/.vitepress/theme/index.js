@@ -1,10 +1,8 @@
 import DefaultTheme from 'vitepress/theme'
-import './custom.css' // your custom CSS
+import Layout from './Layout.vue'
+import './custom.css'
 
 export default {
   ...DefaultTheme,
-  enhanceApp({ app, router, siteData }) {
-    // Keep default theme logic
-    // You can add page-specific logic here if needed later
-  }
+  Layout, // ← this is the important part
 }
