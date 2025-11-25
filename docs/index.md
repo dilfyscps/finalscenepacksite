@@ -39,6 +39,17 @@ features:
 
   <div class="poster-card">
   <div class="poster-new-badge">NEW</div>
+    <img src="/posters/i love la.png" alt="I Love LA" class="poster-card-img">
+    <div class="poster-card-body">
+      <span class="poster-tag">TV SHOWS</span>
+      <h3 class="poster-card-title">I Love LA</h3>
+      <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
+      <a href="/porn#i-love-la" target="_blank" class="poster-card-btn">Go to page</a>
+    </div>
+  </div>
+
+  <div class="poster-card">
+  <div class="poster-new-badge">NEW</div>
     <img src="/posters/thehistoryofsound.png" alt="The History of Sound" class="poster-card-img">
     <div class="poster-card-body">
       <span class="poster-tag">MOVIE</span>
@@ -56,17 +67,6 @@ features:
       <h3 class="poster-card-title">Olympo</h3>
       <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
       <a href="/tvshows#olympo" target="_blank" class="poster-card-btn">Go to page</a>
-    </div>
-  </div>
-
-  <div class="poster-card">
-  <div class="poster-new-badge">NEW</div>
-    <img src="/posters/chrisdamned.png" alt="Chris Damned" class="poster-card-img">
-    <div class="poster-card-body">
-      <span class="poster-tag">PORN CREATORS</span>
-      <h3 class="poster-card-title">Chris Damned</h3>
-      <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
-      <a href="/porn#chris-damned" target="_blank" class="poster-card-btn">Go to page</a>
     </div>
   </div>
 
