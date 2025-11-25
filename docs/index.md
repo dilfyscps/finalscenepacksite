@@ -41,7 +41,7 @@ features:
   <div class="poster-new-badge">NEW</div>
     <img src="/posters/i love la.png" alt="I Love LA" class="poster-card-img">
     <div class="poster-card-body">
-      <span class="poster-tag">TV SHOWS</span>
+      <span class="poster-tag">TV SHOW</span>
       <h3 class="poster-card-title">I Love LA</h3>
       <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
       <a href="/tvshows#i-love-la" target="_blank" class="poster-card-btn">Go to page</a>
