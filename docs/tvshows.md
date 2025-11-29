@@ -16,36 +16,36 @@ hero:
 
 <h3 class="index-title">INDEX</h3>
 <div class="index-nav">
-  <a href="/tvshows#a" class="">A</a>
+  <a href="/tvshows#a">A</a>
   <a href="/tvshows#b" class="active">B</a>
-  <a href="/tvshows#c" class="">C</a>
-  <a href="/tvshows#d" class="">D</a>
-  <a href="/tvshows#e" class="">E</a>
+  <a href="/tvshows#c">C</a>
+  <a href="/tvshows#d">D</a>
+  <a href="/tvshows#e">E</a>
   <a href="/tvshows#f" class="active">F</a>
   <a href="/tvshows#g" class="active">G</a>
   <a href="/tvshows#h" class="active">H</a>
-  <a href="/tvshows#i" class="">I</a>
-  <a href="/tvshows#j" class="">J</a>
-  <a href="/tvshows#k" class="">K</a>
+  <a href="/tvshows#i" class="active">I</a>
+  <a href="/tvshows#j">J</a>
+  <a href="/tvshows#k">K</a>
   <a href="/tvshows#l" class="active">L</a>
-  <a href="/tvshows#m" class="">M</a>
-  <a href="/tvshows#n" class="">N</a>
+  <a href="/tvshows#m">M</a>
+  <a href="/tvshows#n">N</a>
   <a href="/tvshows#o" class="active">O</a>
   <a href="/tvshows#p" class="active">P</a>
-  <a href="/tvshows#q" class="">Q</a>
+  <a href="/tvshows#q">Q</a>
   <a href="/tvshows#r" class="active">R</a>
-  <a href="/tvshows#s" class="">S</a>
+  <a href="/tvshows#s" class="active">S</a>
   <a href="/tvshows#t" class="active">T</a>
-  <a href="/tvshows#u" class="">U</a>
-  <a href="/tvshows#v" class="">V</a>
+  <a href="/tvshows#u">U</a>
+  <a href="/tvshows#v">V</a>
   <a href="/tvshows#w" class="active">W</a>
-  <a href="/tvshows#x" class="">X</a>
-  <a href="/tvshows#y" class="">Y</a>
-  <a href="/tvshows#z" class="">Z</a>
+  <a href="/tvshows#x">X</a>
+  <a href="/tvshows#y">Y</a>
+  <a href="/tvshows#z">Z</a>
 </div>
 
 
-# <h1 id="b" class="hidden-index-heading">B</h1>
+<h1 id="b" class="hidden-index-heading">B</h1>
 
 ## Boots
 <div class="poster-box">
@@ -58,8 +58,7 @@ hero:
   </div>
 </div>
 
-
-# <h1 id="f" class="hidden-index-heading">F</h1>
+<h1 id="f" class="hidden-index-heading">F</h1>
 
 ## Fellow Travelers
 <div class="poster-box">
@@ -72,8 +71,7 @@ hero:
   </div>
 </div>
 
-
-# <h1 id="g" class="hidden-index-heading">G</h1>
+<h1 id="g" class="hidden-index-heading">G</h1>
 
 ## Gen V S2
 <div class="poster-box">
@@ -86,8 +84,8 @@ hero:
   </div>
 </div>
 
+<h1 id="h" class="hidden-index-heading">H</h1>
 
-# <h1 id="h" class="hidden-index-heading">H</h1>
 ## Heated Rivalry
 <div class="poster-box">
   <div class="poster-new-badge">NEW</div>
@@ -111,7 +109,8 @@ hero:
   </div>
 </div>
 
-# <h1 id="i" class="hidden-index-heading">I</h1>
+<h1 id="i" class="hidden-index-heading">I</h1>
+
 ## I Love LA
 <div class="poster-box">
   <div class="poster-content">
@@ -123,7 +122,7 @@ hero:
   </div>
 </div>
 
-# <h1 id="l" class="hidden-index-heading">L</h1>
+<h1 id="l" class="hidden-index-heading">L</h1>
 
 ## Looking
 <div class="poster-box">
@@ -136,8 +135,7 @@ hero:
   </div>
 </div>
 
-
-# <h1 id="o" class="hidden-index-heading">O</h1>
+<h1 id="o" class="hidden-index-heading">O</h1>
 
 ## Olympo
 <div class="poster-box">
@@ -150,8 +148,7 @@ hero:
   </div>
 </div>
 
-
-# <h1 id="p" class="hidden-index-heading">P</h1>
+<h1 id="p" class="hidden-index-heading">P</h1>
 
 ## Peacemaker
 <div class="poster-box">
@@ -164,8 +161,7 @@ hero:
   </div>
 </div>
 
-
-# <h1 id="r" class="hidden-index-heading">R</h1>
+<h1 id="r" class="hidden-index-heading">R</h1>
 
 ## Reacher
 <div class="poster-box">
@@ -178,9 +174,9 @@ hero:
   </div>
 </div>
 
-# <h1 id="s" class="hidden-index-heading">S</h1>
+<h1 id="s" class="hidden-index-heading">S</h1>
 
-## Stranger Things 5 
+## Stranger Things 5
 <div class="poster-box">
   <div class="poster-new-badge">NEW</div>
   <div class="poster-content">
@@ -192,7 +188,7 @@ hero:
   </div>
 </div>
 
-# <h1 id="t" class="hidden-index-heading">T</h1>
+<h1 id="t" class="hidden-index-heading">T</h1>
 
 ## The Ed Gein Story
 <div class="poster-box">
@@ -205,7 +201,6 @@ hero:
   </div>
 </div>
 
-
 ## The Politician
 <div class="poster-box">
   <div class="poster-content">
@@ -217,8 +212,7 @@ hero:
   </div>
 </div>
 
-
-# <h1 id="w" class="hidden-index-heading">W</h1>
+<h1 id="w" class="hidden-index-heading">W</h1>
 
 ## We Own This City
 <div class="poster-box">
