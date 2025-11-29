@@ -39,34 +39,34 @@ features:
 
   <div class="poster-card">
   <div class="poster-new-badge">NEW</div>
+    <img src="/posters/heatedrivalry.png" alt="Heated Rivalry" class="poster-card-img">
+    <div class="poster-card-body">
+      <span class="poster-tag">TV SHOW</span>
+      <h3 class="poster-card-title">Heated Rivalry</h3>
+      <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
+      <a href="/tvshows#heated-rivalry" target="_blank" class="poster-card-btn">Go to page</a>
+    </div>
+  </div>
+
+    <div class="poster-card">
+  <div class="poster-new-badge">NEW</div>
+    <img src="/posters/strangerthings5.png" alt="Stranger Things 5" class="poster-card-img">
+    <div class="poster-card-body">
+      <span class="poster-tag">TV SHOW</span>
+      <h3 class="poster-card-title">Stranger Things 5</h3>
+      <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
+      <a href="/tvshows#stranger-things-5" target="_blank" class="poster-card-btn">Go to page</a>
+    </div>
+  </div>
+
+  <div class="poster-card">
+  <div class="poster-new-badge">NEW</div>
     <img src="/posters/i love la.png" alt="I Love LA" class="poster-card-img">
     <div class="poster-card-body">
       <span class="poster-tag">TV SHOW</span>
       <h3 class="poster-card-title">I Love LA</h3>
       <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
       <a href="/tvshows#i-love-la" target="_blank" class="poster-card-btn">Go to page</a>
-    </div>
-  </div>
-
-  <div class="poster-card">
-  <div class="poster-new-badge">NEW</div>
-    <img src="/posters/thehistoryofsound.png" alt="The History of Sound" class="poster-card-img">
-    <div class="poster-card-body">
-      <span class="poster-tag">MOVIE</span>
-      <h3 class="poster-card-title">The History of Sound</h3>
-      <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
-      <a href="/movies#the-history-of-sound" target="_blank" class="poster-card-btn">Go to page</a>
-    </div>
-  </div>
-
-  <div class="poster-card">
-  <div class="poster-new-badge">NEW</div>
-    <img src="/posters/Olympo.png" alt="Olympo" class="poster-card-img">
-    <div class="poster-card-body">
-      <span class="poster-tag">TV SHOW</span>
-      <h3 class="poster-card-title">Olympo</h3>
-      <p class="poster-desc">Quality: 1080p, FPS: 23.976</p>
-      <a href="/tvshows#olympo" target="_blank" class="poster-card-btn">Go to page</a>
     </div>
   </div>
 

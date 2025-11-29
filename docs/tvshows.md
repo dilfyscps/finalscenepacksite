@@ -88,6 +88,17 @@ hero:
 
 
 # <h1 id="h" class="hidden-index-heading">H</h1>
+## Heated Rivalry
+<div class="poster-box">
+  <div class="poster-new-badge">NEW</div>
+  <div class="poster-content">
+    <img src="/posters/heatedrivalry.png" alt="Heated Rivalry" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976<br>
+      <a href="https://mega.nz/folder/tHJAwagZ#of7KUZuBaWgEqOq6GcGK6Q" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
 
 ## Hollywood
 <div class="poster-box">
@@ -167,6 +178,19 @@ hero:
   </div>
 </div>
 
+# <h1 id="s" class="hidden-index-heading">S</h1>
+
+## Stranger Things 5 
+<div class="poster-box">
+  <div class="poster-new-badge">NEW</div>
+  <div class="poster-content">
+    <img src="/posters/strangerthings5.png" alt="Stranger Things 5" class="poster-img" />
+    <div class="poster-description">
+      Quality: 1080p, FPS: 23.976<br>
+      <a href="https://mega.nz/folder/hCRwFQpR#DwHEWToYmgjOXQZlQMyn2A" target="_blank" class="poster-btn">Open Mega</a>
+    </div>
+  </div>
+</div>
 
 # <h1 id="t" class="hidden-index-heading">T</h1>
 
