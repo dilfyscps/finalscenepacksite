@@ -21,24 +21,16 @@ features:
     details: All Scenepack links - now covered in snow!
     link: /cvmscps
 ---
-<div id="christmas-lights"></div>
-<div id="snow-overlay"></div>
-<div class="xmas-divider"></div>
-
-<!-- ============================= -->
-<!--    COMMONNINJA COMPONENT     -->
-<!-- ============================= -->
 
 <div class="commonninja_component pid-12568156-ec21-4816-aa2e-a9d076e969db"></div>
 
-
-<h1 style="text-align: center; margin-top: 1rem;"> RECENT SCENEPACKS </h1>
-
+<h1 style="text-align: center; margin-top: 1rem;">RECENT SCENEPACKS</h1>
 
 <div class="poster-grid">
 
+  <!-- Heated Rivalry -->
   <div class="poster-card">
-  <div class="poster-new-badge">NEW</div>
+    <div class="poster-new-badge">NEW</div>
     <img src="/posters/heatedrivalry.png" alt="Heated Rivalry" class="poster-card-img">
     <div class="poster-card-body">
       <div class="poster-tag">TV SHOW</div>
@@ -48,8 +40,9 @@ features:
     </div>
   </div>
 
-    <div class="poster-card">
-  <div class="poster-new-badge">NEW</div>
+  <!-- Stranger Things 5 -->
+  <div class="poster-card">
+    <div class="poster-new-badge">NEW</div>
     <img src="/posters/strangerthings5.png" alt="Stranger Things 5" class="poster-card-img">
     <div class="poster-card-body">
       <div class="poster-tag">TV SHOW</div>
@@ -59,8 +52,9 @@ features:
     </div>
   </div>
 
+  <!-- I Love LA -->
   <div class="poster-card">
-  <div class="poster-new-badge">NEW</div>
+    <div class="poster-new-badge">NEW</div>
     <img src="/posters/i love la.png" alt="I Love LA" class="poster-card-img">
     <div class="poster-card-body">
       <div class="poster-tag">TV SHOW</div>
