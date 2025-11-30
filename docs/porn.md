@@ -76,7 +76,7 @@ hero:
     <img src="/posters/clarkreid.png" alt="Clark Reid" class="poster-img" />
     <div class="poster-description">
       Quality: 1080p, FPS: 23.976<br>
-      <a href="https://mega.nz/folder/FXwG1ChQ#CjqCpFVMlug7s2CEsCj4KQ" target="_blank" class="poster-btn">Open Mega</a>
+      <a href="https://mega.nz/folder/wf40nSpY#x_IHIYBTiG-fUloTY_M5jA" target="_blank" class="poster-btn">Open Mega</a>
     </div>
   </div>
 </div>
